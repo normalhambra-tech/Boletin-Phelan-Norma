@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boletín Phelan-McDermid</title>
+<meta name="description" content="Boletín semanal con las webs y redes sociales sobre el síndrome de Phelan-McDermid, SHANK3 y 22q13 en todos los idiomas. Se actualiza cada mañana y sale edición nueva cada miércoles.">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --ink:#1c2330; --muted:#5d6878; --line:#e2e6ec;
+  --brand:#1f5fa8; --brand-soft:#e7f0fb;
+  --new:#c2410c; --new-bg:#fff4e8; --new-line:#f6b27a;
+  --today:#9d174d; --today-bg:#fdebf3;
+  --chip:#eef1f5;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#11151b; --card:#1a2029; --ink:#e7ebf1; --muted:#9aa5b5; --line:#2b3340;
+    --brand:#7fb2ee; --brand-soft:#1d2b3d;
+    --new:#ffa364; --new-bg:#2d1f14; --new-line:#8a4a1c;
+    --today:#f58cbc; --today-bg:#33192a;
+    --chip:#232b36;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#11151b; --card:#1a2029; --ink:#e7ebf1; --muted:#9aa5b5; --line:#2b3340;
+  --brand:#7fb2ee; --brand-soft:#1d2b3d;
+  --new:#ffa364; --new-bg:#2d1f14; --new-line:#8a4a1c;
+  --today:#f58cbc; --today-bg:#33192a;
+  --chip:#232b36;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--brand)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{padding-top:28px;padding-bottom:22px}
+.kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
+h1{font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.15;margin:.3rem 0 .5rem}
+.meta{color:var(--muted);font-size:.95rem;margin:0}
+.meta strong{color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px;font-size:.88rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid var(--line)}
+section{margin:30px 0}
+h2{font-size:1.3rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 14px;font-size:.95rem}
+.intro{background:var(--brand-soft);border-radius:10px;padding:14px 16px;margin:0 0 16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:18px 0 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.stat b{display:block;font-size:1.5rem;line-height:1.2}
+.stat small{color:var(--muted)}
+.stat.new b{color:var(--new)}
+.list{display:grid;gap:10px}
+.item{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;padding:12px 14px}
+.item.is-new{background:var(--new-bg);border-color:var(--new-line);border-left-color:var(--new)}
+.item.is-today{background:var(--today-bg);border-left-color:var(--today)}
+.item h3{font-size:1.02rem;margin:0 0 2px;overflow-wrap:anywhere}
+.item h3 a{text-decoration:none}
+.item h3 a:hover{text-decoration:underline}
+.item.is-new h3 a{color:var(--new)}
+.item.is-today h3 a{color:var(--today)}
+.item p{margin:2px 0 6px;color:var(--muted);font-size:.93rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{background:var(--chip);border-radius:999px;padding:1px 9px;font-size:.78rem;color:var(--muted)}
+.badge{border-radius:999px;padding:1px 9px;font-size:.74rem;font-weight:700;letter-spacing:.03em;color:#fff;background:var(--new)}
+.is-today .badge{background:var(--today)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.controls input,.controls select{font:inherit;font-size:.93rem;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
+.controls input{flex:1 1 220px}
+.group-title{font-size:1rem;margin:22px 0 8px;color:var(--muted);text-transform:capitalize}
+.empty{color:var(--muted);font-style:italic}
+details.edition{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:8px}
+details.edition summary{cursor:pointer;font-weight:600}
+details.edition ul{margin:8px 0 0;padding-left:20px}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding:18px 0 40px;margin-top:40px}
+.themebtn{float:right;font:inherit;font-size:.85rem;background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:4px 10px;cursor:pointer}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <button class="themebtn" id="themebtn" type="button">Tema</button>
+    <p class="kicker">Boletín semanal · sale cada miércoles</p>
+    <h1>Phelan-McDermid · SHANK3 · 22q13 en la red</h1>
+    <p class="meta" id="meta">Cargando…</p>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--today)"></i> Encontrado hoy</span>
+      <span><i class="sw" style="background:var(--new)"></i> Nuevo en los últimos 7 días</span>
+      <span><i class="sw" style="background:var(--card)"></i> Ya conocido</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="stats" id="stats"></div>
+
+  <section id="edicion">
+    <h2 id="ed-title">Edición de esta semana</h2>
+    <div class="intro" id="ed-intro" hidden></div>
+  </section>
+
+  <section id="novedades">
+    <h2>Novedades</h2>
+    <p class="sub">Webs y perfiles que la búsqueda diaria ha encontrado por primera vez en los últimos 7 días. Se revisa todas las mañanas.</p>
+    <div class="list" id="new-list"></div>
+  </section>
+
+  <section id="directorio">
+    <h2>Directorio completo</h2>
+    <p class="sub">Todas las webs y redes sociales encontradas, agrupadas por idioma.</p>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Buscar por nombre, país, descripción…" aria-label="Buscar">
+      <select id="f-topic" aria-label="Tema"><option value="">Todos los temas</option><option>PMS</option><option>SHANK3</option><option>22q13</option></select>
+      <select id="f-lang" aria-label="Idioma"><option value="">Todos los idiomas</option></select>
+      <select id="f-type" aria-label="Tipo"><option value="">Todos los tipos</option></select>
+    </div>
+    <div id="dir"></div>
+  </section>
+
+  <section id="archivo">
+    <h2>Ediciones anteriores</h2>
+    <div id="arch"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Recopilación automática a partir de búsquedas públicas en internet. «Nuevo» significa que la búsqueda lo ha encontrado por primera vez esa fecha, no necesariamente que se haya creado ese día. Si ves un enlace roto o falta alguna página, escríbenos.
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Tema claro/oscuro recordado por visitante
+  var root=document.documentElement;
+  try{var t=localStorage.getItem('tema'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  document.getElementById('themebtn').onclick=function(){
+    var dark=root.getAttribute('data-theme')==='dark'||(!root.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);
+    var n=dark?'light':'dark'; root.setAttribute('data-theme',n);
+    try{localStorage.setItem('tema',n);}catch(e){}
+  };
+
+  var TYPES={web:'Web',facebook:'Facebook',instagram:'Instagram',x:'X / Twitter',youtube:'YouTube',tiktok:'TikTok',linkedin:'LinkedIn',reddit:'Reddit',blog:'Blog',podcast:'Podcast',registro:'Registro de pacientes',investigacion:'Investigación',otro:'Otra red'};
+  var langName, regName;
+  try{langName=new Intl.DisplayNames(['es'],{type:'language'});regName=new Intl.DisplayNames(['es'],{type:'region'});}catch(e){}
+  function lang(c){try{return langName?langName.of(c):c;}catch(e){return c;}}
+  function region(c){if(!c||c==='INT')return 'Internacional';try{return regName?regName.of(c):c;}catch(e){return c;}}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function fmt(d){var x=new Date(d+'T12:00:00');return x.toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'long',year:'numeric'});}
+  function daysBetween(a,b){return Math.round((new Date(b+'T12:00:00')-new Date(a+'T12:00:00'))/864e5);}
+
+  Promise.all([
+    fetch('data/sitios.json',{cache:'no-store'}).then(function(r){return r.json();}),
+    fetch('data/ediciones.json',{cache:'no-store'}).then(function(r){return r.json();})
+  ]).then(function(res){render(res[0],res[1]);}).catch(function(){
+    document.getElementById('meta').textContent='No se han podido cargar los datos.';
+  });
+
+  function render(data,eds){
+    var today=data.actualizado.slice(0,10);
+    var entries=data.entradas.map(function(e){
+      var age=daysBetween(e.first_seen,today);
+      e._today=!e.inicial&&age===0;
+      e._new=!e.inicial&&age>=0&&age<7;
+      return e;
+    });
+    var fresh=entries.filter(function(e){return e._new;}).sort(function(a,b){return b.first_seen.localeCompare(a.first_seen);});
+    var ed=eds.ediciones.slice().sort(function(a,b){return b.fecha.localeCompare(a.fecha);});
+    var cur=ed[0];
+
+    document.getElementById('meta').innerHTML=(cur?'<strong>Edición nº '+cur.numero+'</strong> · '+esc(fmt(cur.fecha))+' · ':'')+'Última revisión: '+esc(fmt(today));
+    var langs={}; entries.forEach(function(e){langs[e.language]=1;});
+    document.getElementById('stats').innerHTML=
+      stat(entries.length,'webs y perfiles')+
+      stat(Object.keys(langs).length,'idiomas')+
+      stat(entries.filter(function(e){return e._today;}).length,'encontrados hoy','new')+
+      stat(fresh.length,'nuevos esta semana','new');
+
+    if(cur){
+      document.getElementById('ed-title').textContent='Edición nº '+cur.numero+' — '+fmt(cur.fecha);
+      if(cur.resumen){var i=document.getElementById('ed-intro');i.hidden=false;i.innerHTML=esc(cur.resumen).replace(/\n/g,'<br>');}
+    }
+    document.getElementById('new-list').innerHTML=fresh.length?fresh.map(card).join(''):'<p class="empty">Esta semana todavía no ha aparecido nada nuevo. La búsqueda se repite cada mañana.</p>';
+
+    // Filtros
+    var fl=document.getElementById('f-lang'), ft=document.getElementById('f-type');
+    Object.keys(langs).sort(function(a,b){return lang(a).localeCompare(lang(b),'es');}).forEach(function(c){fl.insertAdjacentHTML('beforeend','<option value="'+esc(c)+'">'+esc(lang(c))+'</option>');});
+    var types={}; entries.forEach(function(e){types[e.type]=1;});
+    Object.keys(types).forEach(function(t){ft.insertAdjacentHTML('beforeend','<option value="'+esc(t)+'">'+esc(TYPES[t]||t)+'</option>');});
+    ['q','f-topic','f-lang','f-type'].forEach(function(id){document.getElementById(id).addEventListener('input',drawDir);});
+    function drawDir(){
+      var q=document.getElementById('q').value.toLowerCase().trim(), tp=document.getElementById('f-topic').value, lg=fl.value, ty=ft.value;
+      var list=entries.filter(function(e){
+        if(tp&&(e.topics||[]).indexOf(tp)<0)return false;
+        if(lg&&e.language!==lg)return false;
+        if(ty&&e.type!==ty)return false;
+        if(q&&(e.name+' '+e.description+' '+e.url+' '+region(e.country)+' '+lang(e.language)).toLowerCase().indexOf(q)<0)return false;
+        return true;
+      });
+      var groups={}; list.forEach(function(e){(groups[e.language]=groups[e.language]||[]).push(e);});
+      var keys=Object.keys(groups).sort(function(a,b){return groups[b].length-groups[a].length;});
+      document.getElementById('dir').innerHTML=keys.length?keys.map(function(k){
+        var g=groups[k].sort(function(a,b){return (b._new-a._new)||a.name.localeCompare(b.name,'es');});
+        return '<h3 class="group-title">'+esc(lang(k))+' ('+g.length+')</h3><div class="list">'+g.map(card).join('')+'</div>';
+      }).join(''):'<p class="empty">No hay resultados con esos filtros.</p>';
+    }
+    drawDir();
+
+    // Archivo
+    var byUrl={}; entries.forEach(function(e){byUrl[e.url]=e;});
+    document.getElementById('arch').innerHTML=ed.length>1?ed.slice(1).map(function(x){
+      var items=(x.nuevas||[]).map(function(u){var e=byUrl[u];return e?'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(e.name)+'</a> — '+esc(lang(e.language))+'</li>':'';}).join('');
+      return '<details class="edition"><summary>Nº '+x.numero+' · '+esc(fmt(x.fecha))+' · '+(x.nuevas||[]).length+' novedades</summary>'+(x.resumen?'<p>'+esc(x.resumen)+'</p>':'')+(items?'<ul>'+items+'</ul>':'')+'</details>';
+    }).join(''):'<p class="empty">Esta es la primera edición.</p>';
+  }
+  function stat(n,l,c){return '<div class="stat '+(c||'')+'"><b>'+n+'</b><small>'+esc(l)+'</small></div>';}
+  function card(e){
+    var cls='item'+(e._today?' is-new is-today':e._new?' is-new':'');
+    var badge=e._today?'<span class="badge">NUEVO HOY</span>':e._new?'<span class="badge">NUEVO</span>':'';
+    return '<article class="'+cls+'"><h3><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.name)+'</a></h3>'+
+      (e.description?'<p>'+esc(e.description)+'</p>':'')+
+      '<div class="tags">'+badge+'<span class="tag">'+esc(TYPES[e.type]||e.type)+'</span><span class="tag">'+esc(lang(e.language))+'</span><span class="tag">'+esc(region(e.country))+'</span>'+
+      (e.topics||[]).map(function(t){return '<span class="tag">'+esc(t)+'</span>';}).join('')+
+      (e.created?'<span class="tag">creado '+esc(e.created)+'</span>':'')+
+      (e._new?'<span class="tag">visto '+esc(e.first_seen)+'</span>':'')+'</div></article>';
+  }
+})();
+</script>
+</body>
+</html>

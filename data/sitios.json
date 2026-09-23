@@ -1,0 +1,3417 @@
+{
+    "actualizado":  "2026-09-23T12:00",
+    "entradas":  [
+                     {
+                         "name":  "Asociación Síndrome Phelan-McDermid (ASPM)",
+                         "url":  "https://22q13.org.es/",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Web oficial de la asociación española de familias, declarada de utilidad pública, con información, recursos y actividades.",
+                         "created":  "2013",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Asociación Síndrome Phelan McDermid - España (Facebook)",
+                         "url":  "https://www.facebook.com/AsociacionPhelanMcDermid/",
+                         "type":  "facebook",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Página de Facebook de la asociación española con noticias, campañas y actividades.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Asociación Síndrome de Phelan McDermid (@sindromephelan)",
+                         "url":  "https://www.instagram.com/sindromephelan/",
+                         "type":  "instagram",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Cuenta de Instagram de la asociación española, que apoya a familias desde 2013.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Asociación Síndrome de Phelan McDermid España (@PhelanMcDermid)",
+                         "url":  "https://x.com/PhelanMcDermid",
+                         "type":  "x",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Perfil en X (Twitter) de la asociación española.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Asociación Síndrome Phelan-McDermid (YouTube)",
+                         "url":  "https://www.youtube.com/channel/UCVw-rXJGAnMAyQfBx3s9j9Q",
+                         "type":  "youtube",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Canal de YouTube de la asociación española con vídeos divulgativos, sesiones Phelan Hour y testimonios.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Asociación Síndrome Phelan-McDermid España (LinkedIn)",
+                         "url":  "https://www.linkedin.com/company/asociaci%C3%B3n-s%C3%ADndrome-phelan-mcdermid-espa%C3%B1a",
+                         "type":  "linkedin",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Página corporativa de la asociación española en LinkedIn.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "ASPM - El cromosoma 22 y el gen SHANK3",
+                         "url":  "https://22q13.org.es/recursos/el-cromosoma-22-y-el-gen-shank3/",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Recurso divulgativo de la ASPM que explica la genética del cromosoma 22 y el gen SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Guia informativa \u0027Viure amb Phelan\u0027 (català)",
+                         "url":  "https://22q13.org.es/wp-content/uploads/2024/04/CATALAN-folleto-pdf-newsletter.pdf",
+                         "type":  "otro",
+                         "language":  "ca",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Folleto informativo en catalán editado por la ASPM sobre cómo vivir con el síndrome.",
+                         "created":  "2024-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan App (App Store)",
+                         "url":  "https://apps.apple.com/es/app/phelan-app/id6475166650",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "App exclusiva para socios de la ASPM con guías médicas, tarjeta de emergencia y registro diario de síntomas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan Hour: Espectro clínico y genético del síndrome de Phelan-McDermid",
+                         "url":  "https://www.youtube.com/watch?v=Nkbj-MOBxR8",
+                         "type":  "youtube",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Sesión en la que la Dra. Catalina Betancur explica el espectro clínico y genético del síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Historias poco frecuentes (ConSalud): Phelan-McDermid, un síndrome invisibilizado por el TEA",
+                         "url":  "https://www.consalud.es/podcasts/historias-poco-frecuentes/phelan-mcdermid-sindrome-invisibilizado-por-tea_123572_102.html",
+                         "type":  "podcast",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Episodio de podcast sobre el infradiagnóstico del síndrome y su relación con el autismo.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Parece Mentira: Hablamos con Beatriz Perelló sobre el síndrome Phelan-McDermid",
+                         "url":  "https://www.ivoox.com/en/hablamos-beatriz-perello-sobre-sindrome-phelan-audios-mp3_rf_141623623_1.html?autoplay",
+                         "type":  "podcast",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Entrevista en podcast sobre un síndrome infradiagnosticado y la importancia de su visibilidad.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "FEDER - Asociación Síndrome Phelan-McDermid (22q13)",
+                         "url":  "https://www.enfermedades-raras.org/movimiento-asociativo/entidades-asociadas/asociacion-sindrome-pheland---mcdermid-(22q13)",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha de la ASPM como entidad asociada a la Federación Española de Enfermedades Raras.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Orphanet: Asociación Síndrome Phelan-McDermid España",
+                         "url":  "https://www.orpha.net/en/patient-organisations/patient/390178?name=\u0026mode=",
+                         "type":  "registro",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Registro de la asociación española en el directorio de organizaciones de pacientes de Orphanet.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Fundación Jérôme Lejeune - Síndrome de Phelan-McDermid",
+                         "url":  "https://fundacionlejeune.es/alteraciones/sindrome-phelan-mcdermid/",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Página informativa de la fundación, que colabora con la ASPM en atención médica especializada.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Unos padres murcianos recaudan fondos para tratar el síndrome (elDiario.es)",
+                         "url":  "https://www.eldiario.es/murcia/sociedad/rotary-molina-segura-pheland-mcdermid_1_1055269.html",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Noticia sobre una familia de Murcia que recauda fondos para investigar la proteína SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome deleción 22q13 (Wikipedia en español)",
+                         "url":  "https://es.wikipedia.org/wiki/S%C3%ADndrome_deleci%C3%B3n_22q13",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo de enciclopedia en español sobre el síndrome de deleción 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "GARD - Síndrome de Phelan-McDermid (en español)",
+                         "url":  "https://rarediseases.info.nih.gov/espanol/13545/sindrome-de-phelan-mcdermid",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha en español del centro de información de enfermedades raras de los NIH de EE. UU.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - Documentos en español",
+                         "url":  "https://pmsf.org/document-tag/spanish/",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Colección de documentos en español de la fundación estadounidense para familias hispanohablantes.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - DataHub disponible en español",
+                         "url":  "https://pmsf.org/datahub-is-now-available-in-spanish/",
+                         "type":  "registro",
+                         "language":  "es",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Anuncio de la versión en español del DataHub, registro de datos de pacientes de la PMSF.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Autismo y genética: el caso del síndrome de Phelan-McDermid (neuronas en crecimiento)",
+                         "url":  "https://neuropediatra.org/2018/10/22/autismo-y-genetica-el-caso-del-sindrome-de-phelan-mcdermid/",
+                         "type":  "blog",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Entrada de un blog de neuropediatría sobre la relación entre el síndrome y el autismo.",
+                         "created":  "2018-10",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome Phelan McDermid y Autismo (Atención temprana y familia)",
+                         "url":  "http://atenciontempranayfamilia.blogspot.com/2013/05/sindrome-phelan-mcdermid-pms.html",
+                         "type":  "blog",
+                         "language":  "es",
+                         "country":  "ES",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Entrada de blog sobre atención temprana que presenta el síndrome y su vínculo con el autismo.",
+                         "created":  "2013-05",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan Mcdermid México (Facebook)",
+                         "url":  "https://www.facebook.com/PhelanMcdermidMexico/",
+                         "type":  "facebook",
+                         "language":  "es",
+                         "country":  "MX",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de un grupo de padres mexicanos con hijos afectados por el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome de Phelan-McDermid, un gran desconocido (FEMEXER)",
+                         "url":  "https://www.femexer.org/30549/sindrome-de-phelan-mcdermid-un-gran-desconocido/",
+                         "type":  "web",
+                         "language":  "es",
+                         "country":  "MX",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Artículo de la Federación Mexicana de Enfermedades Raras sobre el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome de Phelan-McDermid: reporte de un caso (Acta Pediátrica de México)",
+                         "url":  "https://www.scielo.org.mx/scielo.php?script=sci_arttext\u0026pid=S0186-23912018000100042",
+                         "type":  "investigacion",
+                         "language":  "es",
+                         "country":  "MX",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo científico mexicano con reporte de caso y revisión de la literatura.",
+                         "created":  "2018",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "¿Qué es el síndrome de Phelan-McDermid? (Yo También)",
+                         "url":  "https://yotambien.mx/noticia/sindrome-de-phelan-mcdermid-que-es-y-cuales-son-sus-sintomas/",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "MX",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Artículo divulgativo de un medio mexicano sobre discapacidad acerca del síndrome y sus síntomas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid: una mutación, miles de vidas afectadas (Sanamente.mx)",
+                         "url":  "https://sanamente.mx/2025/10/21/phelan-mcdermid-una-mutacion-miles-de-vidas-afectadas/",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "MX",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Artículo divulgativo mexicano publicado en torno al Día Internacional del síndrome.",
+                         "created":  "2025-10",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Argentina Síndrome (@phelanmcdermidargentina)",
+                         "url":  "https://www.instagram.com/phelanmcdermidargentina/",
+                         "type":  "instagram",
+                         "language":  "es",
+                         "country":  "AR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Instagram de la Asociación Civil Síndrome Phelan-McDermid Argentina, que reúne a unas 50 familias.",
+                         "created":  "2025-03",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Se creó en Chivilcoy la Asociación Civil Síndrome Phelan-McDermid Argentina",
+                         "url":  "https://www.larazondechivilcoy.com.ar/locales/2025/4/6/se-creo-en-chivilcoy-la-asociacion-civil-sindrome-phelan-mcdermid-argentina-183324.html",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "AR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia sobre la constitución formal de la asociación argentina en marzo de 2025.",
+                         "created":  "2025-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "FADEPOF - Día Mundial del Síndrome Phelan-McDermid (Facebook)",
+                         "url":  "https://www.facebook.com/fadepof/posts/22-oct-i-d%C3%ADa-mundial-del-s%C3%ADndrome-phelan-mcdermidel-s%C3%ADndrome-de-phelan-mcdermid-/4478900808852735/",
+                         "type":  "facebook",
+                         "language":  "es",
+                         "country":  "AR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Publicación de la Federación Argentina de Enfermedades Poco Frecuentes por el Día Mundial del síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Qué es Phelan-McDermid, el síndrome poco frecuente que desafía a las familias (La Nación)",
+                         "url":  "https://www.lanacion.com.ar/sociedad/por-que-el-entorno-es-clave-phelan-mcdermid-el-sindrome-poco-frecuente-que-afecta-a-los-chicos-y-nid05112024/",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "AR",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Reportaje del diario argentino con testimonios de familias y del grupo de padres del Cono Sur.",
+                         "created":  "2024-11",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Qué es el síndrome Phelan-McDermid (Infobae)",
+                         "url":  "https://www.infobae.com/salud/ciencia/2024/10/22/que-es-el-sindrome-phelan-mcdermoid-la-enfermedad-poco-frecuente-que-afecta-a-3600-personas-en-el-mundo/",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "AR",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo con datos de diagnóstico en Argentina y el grupo de familias de Argentina, Chile y Uruguay.",
+                         "created":  "2024-10",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PHELAN MCDERMID CHILE (@phelanmcdermid.chile)",
+                         "url":  "https://www.instagram.com/phelanmcdermid.chile/",
+                         "type":  "instagram",
+                         "language":  "es",
+                         "country":  "CL",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram de la comunidad de familias chilenas afectadas por el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome Phelan Mcdermid-Perú (Facebook)",
+                         "url":  "https://www.facebook.com/AsociacionPhelanMcDermidPeru/",
+                         "type":  "facebook",
+                         "language":  "es",
+                         "country":  "PE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación de familias del síndrome en Perú.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "El MSP se adhiere al día internacional del Síndrome de Phelan-McDermid (Uruguay)",
+                         "url":  "https://www.gub.uy/ministerio-salud-publica/comunicacion/noticias/msp-se-adhiere-dia-internacional-del-sindrome-phelan-mcdermid",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "UY",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Nota del Ministerio de Salud Pública de Uruguay adhiriéndose al Día Internacional del síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "El relato de una madre cuyo hijo padece de Phelan-McDermid (El Tiempo)",
+                         "url":  "https://www.eltiempo.com/cultura/gente/el-relato-de-una-madre-cuyo-hijo-padece-de-phelan-mcdermid-un-raro-sindrome-que-afecta-a-los-ninos-y-desafia-a-las-familias-que-es-y-cuales-son-los-sintomas-tempranos-3396899",
+                         "type":  "otro",
+                         "language":  "es",
+                         "country":  "CO",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Testimonio de una madre publicado en el diario colombiano sobre la vida con el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Brasil (AFSPM)",
+                         "url":  "https://pmsbrasil.org.br/",
+                         "type":  "web",
+                         "language":  "pt",
+                         "country":  "BR",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Web de Amigos e Familiares da Síndrome de Phelan-McDermid, grupo brasileño de familias socio de la PMSF.",
+                         "created":  "2013-07",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome de Phelan-McDermid Brasil (Facebook)",
+                         "url":  "https://www.facebook.com/phelanmcdermidbrasil/?locale=pt_BR",
+                         "type":  "facebook",
+                         "language":  "pt",
+                         "country":  "BR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación brasileña de familias.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome de Phelan-McDermid BR (@phelanmcdermidbrasil)",
+                         "url":  "https://www.instagram.com/phelanmcdermidbrasil/",
+                         "type":  "instagram",
+                         "language":  "pt",
+                         "country":  "BR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram de la asociación brasileña de familias.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Senado estuda criação de dia nacional de conscientização (Senado Notícias)",
+                         "url":  "https://www12.senado.leg.br/noticias/materias/2025/10/24/sindrome-de-phelan-mcdermid-cct-estuda-criacao-do-dia-nacional",
+                         "type":  "otro",
+                         "language":  "pt",
+                         "country":  "BR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia del Senado brasileño sobre la propuesta de un día nacional de concienciación del síndrome.",
+                         "created":  "2025-10",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "A síndrome de Phelan-McDermid e as ações de conscientização (Tismoo)",
+                         "url":  "https://tismoo.com.br/comunidade/a-sindrome-de-phelan-mcdermid-e-as-acoes-de-conscientizacao/",
+                         "type":  "blog",
+                         "language":  "pt",
+                         "country":  "BR",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Artículo de una empresa brasileña de biotecnología sobre concienciación del síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Associação Phelan-McDermid Portugal (APMP)",
+                         "url":  "https://phelan-mcdermid.pt/",
+                         "type":  "web",
+                         "language":  "pt",
+                         "country":  "PT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Web de la asociación portuguesa de familias con sede en Matosinhos, con secciones para familias y médicos.",
+                         "created":  "2024-02",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Associação Phelan-McDermid Portugal (@phelanmcdermid_portugal)",
+                         "url":  "https://www.instagram.com/phelanmcdermid_portugal/",
+                         "type":  "instagram",
+                         "language":  "pt",
+                         "country":  "PT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram de la asociación portuguesa.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Syndrome Europe List (APMP)",
+                         "url":  "https://phelan-mcdermid.eu/",
+                         "type":  "web",
+                         "language":  "pt",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Directorio europeo de organizaciones del síndrome mantenido por la asociación portuguesa.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Encontro nacional junta famílias Phelan nas Colmeias (Região de Leiria)",
+                         "url":  "https://www.regiaodeleiria.pt/2026/09/encontro-nacional-junta-familias-phelan-nas-colmeias/",
+                         "type":  "otro",
+                         "language":  "pt",
+                         "country":  "PT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia sobre el encuentro nacional de familias del síndrome en Portugal.",
+                         "created":  "2026-09",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Felaniątka (Fundacja Sedeka)",
+                         "url":  "https://sedeka.pl/opp/felaniatka",
+                         "type":  "web",
+                         "language":  "pl",
+                         "country":  "PL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Grupo de padres polacos de niños con 22q13 que recauda fondos para rehabilitación y organiza encuentros anuales de familias en Sosnowiec.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Adaś Podolski - życie z zespołem Phelan-McDermid",
+                         "url":  "https://www.facebook.com/AdasPodolskiPhelanMcDermid/",
+                         "type":  "facebook",
+                         "language":  "pl",
+                         "country":  "PL",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de una familia polaca que cuenta la vida de Adaś con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Choroby Rzadkie - publicación sobre Phelan-McDermid",
+                         "url":  "https://www.facebook.com/ChorobyRzadkie/posts/zesp%C3%B3%C5%82-phelan-mcdermid-to-wada-trudna-do-wykrycia-pojawia-si%C4%99-bardzo-rzadko-do-n/374193302698291/",
+                         "type":  "facebook",
+                         "language":  "pl",
+                         "country":  "PL",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Publicación divulgativa de una página polaca sobre enfermedades raras dedicada al síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Zespół Phelan-McDermid - chorobyrzadkie.gov.pl",
+                         "url":  "https://chorobyrzadkie.gov.pl/pl/print/pdf/node/35980",
+                         "type":  "web",
+                         "language":  "pl",
+                         "country":  "PL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha oficial del portal polaco de enfermedades raras sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Zespół delecji 22q13.3 - Wikipedia (PL)",
+                         "url":  "https://pl.wikipedia.org/wiki/Zesp%C3%B3%C5%82_delecji_22q13.3",
+                         "type":  "otro",
+                         "language":  "pl",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo de la Wikipedia en polaco sobre el síndrome de deleción 22q13.3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Zespół Phelan-McDermid - delecja 22q13 (blog Choroby Rzadkie)",
+                         "url":  "https://chorobyrzadkie.blogspot.com/2013/04/zespo-phelan-mcdermid-delecja-22q13.html",
+                         "type":  "blog",
+                         "language":  "pl",
+                         "country":  "PL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Entrada de un blog polaco sobre enfermedades raras que explica el síndrome de Phelan-McDermid.",
+                         "created":  "2013-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Kacper Psikus - zbiórka Siepomaga",
+                         "url":  "https://www.siepomaga.pl/kacper-psikus",
+                         "type":  "otro",
+                         "language":  "pl",
+                         "country":  "PL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Campaña solidaria polaca para la rehabilitación de Kacper, niño con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Syndrom Phelan-McDermid (phelan-mcdermid.cz)",
+                         "url":  "https://phelan-mcdermid.cz/blog/",
+                         "type":  "web",
+                         "language":  "cs",
+                         "country":  "CZ",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Web checa de información sobre el síndrome de Phelan-McDermid dirigida a familias.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Spolek Srdce na pravém místě",
+                         "url":  "https://srdcenapravemmiste.cz/",
+                         "type":  "web",
+                         "language":  "cs",
+                         "country":  "CZ",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Asociación checa nacida para apoyar a una niña con Phelan-McDermid que organiza estancias de fin de semana para familias con el síndrome.",
+                         "created":  "2015-01",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Vilém má vzácný syndrom (Blesk.cz)",
+                         "url":  "https://www.blesk.cz/clanek/srdce-pro-vas/777009/vilem-14-ma-vzacny-syndrom-kterym-trpi-jen-stovky-lidi-na-svete-muze-za-to-jedina-chyba-v-genech.html",
+                         "type":  "otro",
+                         "language":  "cs",
+                         "country":  "CZ",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Reportaje en prensa checa sobre Vilém, un adolescente con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Děvčátko má vzácnou genetickou vadu (Český rozhlas Zlín)",
+                         "url":  "https://zlin.rozhlas.cz/devcatko-ma-vzacnou-genetickou-vadu-nechodi-a-nemluvi-poslechnete-si-jeji-pribeh-7698507",
+                         "type":  "otro",
+                         "language":  "cs",
+                         "country":  "CZ",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Reportaje de la radio pública checa sobre una niña con una enfermedad genética rara, vinculado a búsquedas sobre Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Doporučení pro anestezii u Phelan–McDermidova syndromu (OrphanAnesthesia)",
+                         "url":  "https://www.orphananesthesia.eu/rare-diseases/published-guidelines/phelan-mcdermid-syndrome/1098-phelan-mcdermid-syndrom-cz/file.html",
+                         "type":  "investigacion",
+                         "language":  "cs",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Guía clínica de anestesia para personas con síndrome de Phelan-McDermid traducida al checo.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid syndróm - Genetické syndrómy",
+                         "url":  "https://www.genetickesyndromy.sk/syndromy/phelan-mcdermid-syndrom",
+                         "type":  "web",
+                         "language":  "sk",
+                         "country":  "SK",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Portal eslovaco sobre síndromes genéticos con ficha del síndrome y recursos para familias en Eslovaquia.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Daruj mi pokrok - Pomocníček",
+                         "url":  "https://www.pomocnicek.sk/nase-projekty/daruj-mi-pokrok.html",
+                         "type":  "web",
+                         "language":  "sk",
+                         "country":  "SK",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Proyecto solidario eslovaco que incluye el perfil de Adelka, niña con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan–McDermid Szindróma - RIROSZ",
+                         "url":  "https://www.rirosz.hu/betegsegleiras-iranyelv/phelan-mcdermid-szindroma/",
+                         "type":  "web",
+                         "language":  "hu",
+                         "country":  "HU",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha de la federación húngara de enfermedades raras sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Szabolcs története - RIROSZ",
+                         "url":  "https://www.rirosz.hu/betegtortenetek-gyujtemenye/szabolcs-tortenete-phelan-mcdermid-szindroma/",
+                         "type":  "otro",
+                         "language":  "hu",
+                         "country":  "HU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Testimonio de una familia húngara sobre la vida de Szabolcs con Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid Szindróma - Elvarázsolt Gének Alapítvány",
+                         "url":  "https://egenek.com/phelan-mcdermid-szindroma/",
+                         "type":  "web",
+                         "language":  "hu",
+                         "country":  "HU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de una fundación húngara de apoyo a enfermedades genéticas raras dedicada al síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Centrul NeuroVictory (portalsm.ro)",
+                         "url":  "https://portalsm.ro/2026/09/se-pregateste-centrul-neurovictory/",
+                         "type":  "otro",
+                         "language":  "ro",
+                         "country":  "RO",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia sobre la asociación rumana NeuroVictory, creada por la madre de una niña con Phelan-McDermid para abrir un centro de terapias en Satu Mare.",
+                         "created":  "2026-09",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "O mamă din Satu Mare luptă pentru copiii cu sindrom Phelan-McDermid",
+                         "url":  "https://www.gazetanord-vest.ro/2026/09/o-mama-din-satu-mare-lupta-pentru-fiica-ei-si-pentru-toti-copiii-cu-sindrom-phelan-mcdermid",
+                         "type":  "otro",
+                         "language":  "ro",
+                         "country":  "RO",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Reportaje de prensa rumana sobre la campaña de una madre por los niños con síndrome de Phelan-McDermid.",
+                         "created":  "2026-09",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Единственият диагностициран със синдрома на Фелан-Макдермид в България",
+                         "url":  "https://www.focus-news.net/novini/regioni/Edinstveniyat-diagnosticiran-sus-sindroma-na-Felan-Makdermid-v-Bulgariya-e-ot-Smolyan-1867084",
+                         "type":  "otro",
+                         "language":  "bg",
+                         "country":  "BG",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Noticia búlgara sobre Yulian, de Smolyan, presentado como el único diagnosticado de Phelan-McDermid en Bulgaria.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Синдром на Фелан-Макдермид - Puls.bg",
+                         "url":  "https://www.puls.bg/aktualno-c-6/kakvi-sa-simptomite-na-sindroma-na-felan-makdermid-n-43631",
+                         "type":  "web",
+                         "language":  "bg",
+                         "country":  "BG",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Serie divulgativa de un portal de salud búlgaro sobre síntomas, causas y tratamiento del síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid Greek Association",
+                         "url":  "https://gr.linkedin.com/company/phelan-mcdermid-greek-association",
+                         "type":  "linkedin",
+                         "language":  "el",
+                         "country":  "GR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Asociación griega de padres, tutores y amigos de personas con síndrome de Phelan-McDermid.",
+                         "created":  "2022",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Σύνδρομο Phelan - ΕΕΕ",
+                         "url":  "https://aachellas.gr/phelan-syndrome/",
+                         "type":  "web",
+                         "language":  "el",
+                         "country":  "GR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página informativa en griego sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "22q13 Deletion - Phelan McDermid Syndrome - Udruga Genom",
+                         "url":  "https://www.udruga-genom.hr/rijetke-bolesti-i-genetski-poremecaji/22q13-deletion-phelan-mcdermid-syndrome/22",
+                         "type":  "web",
+                         "language":  "hr",
+                         "country":  "HR",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha de la asociación croata Genom, activa en la concienciación sobre Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Međunarodni dan Phelan McDermid sindroma u Solinu",
+                         "url":  "https://www.solin.hr/novosti/obiljezavanje-medunarodnog-dana-phelan-mcdermid-sindroma-u-solinu-4/",
+                         "type":  "otro",
+                         "language":  "hr",
+                         "country":  "HR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia del Ayuntamiento de Solin (Croacia) sobre la celebración del Día Internacional de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Hrvatsko društvo za rijetke bolesti - Phelan-McDermid",
+                         "url":  "http://www.rijetke-bolesti.org/bolest.php?disease_id=15",
+                         "type":  "web",
+                         "language":  "hr",
+                         "country":  "HR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha de la sociedad croata de enfermedades raras sobre el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan Mc-Dermid sindrom - Društvo Viljem Julijan",
+                         "url":  "https://viljem-julijan.si/opisi-redkih-bolezni/phelan-mc-dermid-sindrom/",
+                         "type":  "web",
+                         "language":  "sl",
+                         "country":  "SI",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Descripción del síndrome publicada por la asociación eslovena de apoyo a niños con enfermedades raras.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Запознавање со ретките болести: Фелан-Мекдермид (Слободен печат)",
+                         "url":  "https://www.slobodenpecat.mk/bg/gi-zapoznavame-retkite-bolesti-felan-mekdermid-sindrom/",
+                         "type":  "otro",
+                         "language":  "mk",
+                         "country":  "MK",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Artículo divulgativo de un diario de Macedonia del Norte sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Синдром Фелан–МакДермид: обзор литературы и 2 случая (РЖДН)",
+                         "url":  "https://rjdn.abvpress.ru/jour/article/view/183",
+                         "type":  "investigacion",
+                         "language":  "ru",
+                         "country":  "RU",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Revisión rusa con dos casos clínicos de del 22q13 y cromosoma 22 en anillo.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Синдром Фелан—МакДермид включили в перечень орфанных заболеваний",
+                         "url":  "https://pharmvestnik.ru/content/news/Sindrom-Felan-MakDermid-vkluchili-v-perechen-orfannyh-zabolevanii.html",
+                         "type":  "otro",
+                         "language":  "ru",
+                         "country":  "RU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia sobre la inclusión del síndrome en la lista rusa de enfermedades huérfanas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Синдром Фелан-МакДермид - Аутизм.Энциклопедия",
+                         "url":  "https://encyclopedia.autism.help/terms/sindrom-felan-makdermid",
+                         "type":  "web",
+                         "language":  "ru",
+                         "country":  "RU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Entrada de una enciclopedia rusa sobre autismo dedicada al síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Особые переводы - синдром Фелан-Макдермид",
+                         "url":  "https://specialtranslations.ru/category/%D1%81%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC-%D1%84%D0%B5%D0%BB%D0%B0%D0%BD-%D0%BC%D0%B0%D0%BA%D0%B4%D0%B5%D1%80%D0%BC%D0%B8%D0%B4/",
+                         "type":  "blog",
+                         "language":  "ru",
+                         "country":  "RU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Blog ruso de traducciones sobre discapacidad con una sección de textos sobre Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Синдром Фелан—МакДермид и новая мутация SHANK3 (Mediasphera)",
+                         "url":  "https://www.mediasphera.ru/issues/zhurnal-nevrologii-i-psikhiatrii-im-s-s-korsakova/2023/8/1199772982023081124",
+                         "type":  "investigacion",
+                         "language":  "ru",
+                         "country":  "RU",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Artículo ruso sobre un caso de Phelan-McDermid asociado a una nueva mutación en SHANK3.",
+                         "created":  "2023",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Клініко-лабораторна діагностика синдрому Фелан-МакДерміда у дітей",
+                         "url":  "https://neonatology.bsmu.edu.ua/article/view/2413-4260.IX.3.33.2019.7",
+                         "type":  "investigacion",
+                         "language":  "uk",
+                         "country":  "UA",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo ucraniano sobre el diagnóstico del síndrome en niños atendidos en el hospital OKHMATDYT.",
+                         "created":  "2019",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Genetinės diagnozės nustatymas: Phelan-McDermid sindromo pavyzdys",
+                         "url":  "https://sm-hs.eu/lt/genetines-diagnozes-nustatymas-esant-intelektinei-negaliai-phelan-mcdermid-sindromo-pavyzdys/",
+                         "type":  "investigacion",
+                         "language":  "lt",
+                         "country":  "LT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo lituano que describe un caso de Phelan-McDermid y la importancia del diagnóstico genético.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "פגיעה בגן SHANK3 ואוטיזם - אוטיזם אונליין",
+                         "url":  "https://www.autism.org.il/shank3/",
+                         "type":  "web",
+                         "language":  "he",
+                         "country":  "IL",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Artículo israelí en hebreo sobre el gen SHANK3, el autismo y el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Clinical profiling of Israeli individuals with Phelan McDermid syndrome",
+                         "url":  "https://ojrd.biomedcentral.com/articles/10.1186/s13023-025-03598-3",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "IL",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Estudio que crea una base de datos de 17 personas con Phelan-McDermid en Israel.",
+                         "created":  "2025",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "متلازمة الحذف 22q13 - ويكيبيديا",
+                         "url":  "https://ar.wikipedia.org/wiki/%D9%85%D8%AA%D9%84%D8%A7%D8%B2%D9%85%D8%A9_%D8%A7%D9%84%D8%AD%D8%B0%D9%81_22q13",
+                         "type":  "otro",
+                         "language":  "ar",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo de la Wikipedia en árabe sobre el síndrome de deleción 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PTHEROES - ما هي متلازمة فيلان ماكدرميد؟",
+                         "url":  "https://x.com/PT_HEROESS/status/1735282689635152167",
+                         "type":  "x",
+                         "language":  "ar",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Publicación divulgativa en árabe de una cuenta de fisioterapia con infografías sobre el síndrome.",
+                         "created":  "2023-12",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "أمراض نادرة - متلازمة فيلان-ماكديرميد (Nadir Community)",
+                         "url":  "https://nadircommunity.com/show_disease/63?type=sub",
+                         "type":  "web",
+                         "language":  "ar",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha en árabe de una comunidad online sobre enfermedades raras dedicada al síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "تطوير علاج جديد لأحد أنواع التوحد - QSRN",
+                         "url":  "https://qsrn.org/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%A3%D8%AD%D8%AF-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D8%AF/",
+                         "type":  "otro",
+                         "language":  "ar",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia científica en árabe sobre un nuevo tratamiento en desarrollo para Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "フェラン-マクダーミド症候群 家族の会（PMSF Japan）",
+                         "url":  "https://1234times.jp/pmsf",
+                         "type":  "web",
+                         "language":  "ja",
+                         "country":  "JP",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Web de la asociación japonesa de familias de Phelan-McDermid, con información médica y registro de socios.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSFフェランマクダーミド症候群家族会 (@pmsf_jp_official)",
+                         "url":  "https://www.instagram.com/pmsf_jp_official/",
+                         "type":  "instagram",
+                         "language":  "ja",
+                         "country":  "JP",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram de la asociación japonesa de familias de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "フェラン-マクダーミド症候群 (GeneReviews Japan)",
+                         "url":  "http://grj.umin.jp/grj/PhM.htm",
+                         "type":  "web",
+                         "language":  "ja",
+                         "country":  "JP",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Traducción japonesa de la ficha clínica GeneReviews sobre el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "SHANK3 - GENIE 希少疾患・未診断疾患支援システム",
+                         "url":  "https://genie-peer.jp/disease/shank3/",
+                         "type":  "web",
+                         "language":  "ja",
+                         "country":  "JP",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Ficha japonesa para familias sobre el gen SHANK3 y el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid 症候群 一般向け解説 (UMIN CMA)",
+                         "url":  "http://square.umin.ac.jp/CMA/26_general.pdf",
+                         "type":  "web",
+                         "language":  "ja",
+                         "country":  "JP",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Folleto japonés para el público general que explica qué es el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "펠란-맥더미드 증후군 - 레어노트 (질병관리청)",
+                         "url":  "https://rarenote.io/contents/diseaseinfo/61d02dfc-94fa-4434-bfa2-38175991a5a0",
+                         "type":  "web",
+                         "language":  "ko",
+                         "country":  "KR",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha de la agencia coreana de control de enfermedades sobre el síndrome de deleción 22q13.3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "펠란-맥더미드증후군, 평생 돌봄 필요한 병 (KORD / 헬스조선)",
+                         "url":  "https://www.kord.or.kr/bbs/board.php?bo_table=0603\u0026wr_id=2838\u0026sst=wr_hit\u0026sod=asc\u0026sop=and",
+                         "type":  "otro",
+                         "language":  "ko",
+                         "country":  "KR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Reportaje coreano sobre la necesidad de cuidados y apoyo de por vida para las personas con Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid综合征 - RDDC 疾病数据库",
+                         "url":  "https://rddc.tsinghua-gd.org/zh/disease/PHL006",
+                         "type":  "investigacion",
+                         "language":  "zh",
+                         "country":  "CN",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha de una base de datos china de enfermedades raras con fenotipos y modelos animales del síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "什么是因SHANK3基因突变引发的Phelan-McDermid综合征 - 知乎",
+                         "url":  "https://zhuanlan.zhihu.com/p/250283037",
+                         "type":  "blog",
+                         "language":  "zh",
+                         "country":  "CN",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Artículo divulgativo en chino sobre el síndrome causado por mutaciones en SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "AEF0217 治疗 Phelan-McDermid (raredisease.cn)",
+                         "url":  "https://raredisease.cn/News/Info/14671",
+                         "type":  "otro",
+                         "language":  "zh",
+                         "country":  "CN",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia china sobre el fármaco candidato AEF0217 para Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "A 29 Mainland Chinese cohort of patients with Phelan–McDermid syndrome",
+                         "url":  "https://link.springer.com/article/10.1186/s13023-020-01592-5",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "CN",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Estudio de genotipo y fenotipo en una cohorte de 29 pacientes chinos con Phelan-McDermid.",
+                         "created":  "2020",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Rare Disease Hong Kong - Phelan-McDermid syndrome",
+                         "url":  "https://rdhk.org/post/data?mid=15\u0026id=498\u0026lang=en",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "HK",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha de la federación de enfermedades raras de Hong Kong sobre el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Hội chứng Phelan–McDermid - Wikipedia tiếng Việt",
+                         "url":  "https://vi.wikipedia.org/wiki/H%E1%BB%99i_ch%E1%BB%A9ng_Phelan%E2%80%93McDermid",
+                         "type":  "otro",
+                         "language":  "vi",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo de la Wikipedia en vietnamita sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Hội chứng Phelan-McDermid - VICAS",
+                         "url":  "https://vicas.vn/hoi-chung-phelan-mcdermid/",
+                         "type":  "web",
+                         "language":  "vi",
+                         "country":  "VN",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página vietnamita sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Hội chứng Phelan-McDermid - ihope",
+                         "url":  "https://ihope.vn/hoi-chung-phelan-mcdermid/",
+                         "type":  "web",
+                         "language":  "vi",
+                         "country":  "VN",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Artículo divulgativo vietnamita sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Sindrom delesi 22q13 - Wikipedia bahasa Indonesia",
+                         "url":  "https://id.wikipedia.org/wiki/Sindrom_Phelan-McDermid",
+                         "type":  "otro",
+                         "language":  "id",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo de la Wikipedia en indonesio sobre el síndrome de deleción 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "ORD India - Rare Disease Update: Phelan-McDermid Syndrome",
+                         "url":  "https://www.facebook.com/ordindia/videos/phelan-mcdermid-syndrome-has-been-unraveled-as-a-genetic-disorder-only-2-decades/4833181930027735/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "IN",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Vídeo divulgativo de la Organización de Enfermedades Raras de la India sobre Phelan-McDermid.",
+                         "created":  "2022-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid sendromu - publicación de Instagram (TR)",
+                         "url":  "https://www.instagram.com/p/Cue9ImPq-L5/",
+                         "type":  "instagram",
+                         "language":  "tr",
+                         "country":  "TR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Publicación divulgativa en turco en Instagram sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Association Française du Syndrome Phelan-McDermid (AFSPM)",
+                         "url":  "https://22q13.fr/",
+                         "type":  "web",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Web oficial de la asociación francesa que reúne, ayuda e informa a las familias afectadas por el síndrome de Phelan-McDermid; reconocida de utilidad pública desde 2015.",
+                         "created":  "2013-09",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Association Française du Syndrome Phelan-McDermid - Facebook",
+                         "url":  "https://www.facebook.com/AssociationfrancaisedusyndromePhelanmcdermid/",
+                         "type":  "facebook",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación francesa del síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "AFSPM en X (@22q13_france)",
+                         "url":  "https://x.com/22q13_france",
+                         "type":  "x",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Cuenta de X de la asociación francesa del síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "AFSPM - Canal de YouTube",
+                         "url":  "https://www.youtube.com/channel/UCWNL_uSMrM--j3ZG1vH4hGA",
+                         "type":  "youtube",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Canal de YouTube enlazado desde la web de la asociación francesa del síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "AFSPM en HelloAsso",
+                         "url":  "https://www.helloasso.com/associations/association-francaise-du-syndrome-phelan-mcdermid",
+                         "type":  "otro",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de donaciones y adhesiones de la asociación francesa del síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Le site de Camille et de l\u0027association française du Syndrome Phelan-McDermid",
+                         "url":  "http://syndromephelan-mcdermid.com/",
+                         "type":  "blog",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Web familiar de Camille, hija de los fundadores de la asociación francesa, sobre la vida con el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Association Téhani et les enfants Phelan-McDermid",
+                         "url":  "https://www.vie-de-tehani.org/?lang=en",
+                         "type":  "web",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Asociación francesa que recauda fondos para la investigación (colabora con el Institut Pasteur) y apoya a familias con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Association Téhani et les enfants Phelan-McDermid - Facebook",
+                         "url":  "https://www.facebook.com/AssoTehaniPMS/",
+                         "type":  "facebook",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación Téhani, con actividades de sensibilización y recaudación para la investigación.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Téhani et les enfants Phelan-McDermid en HelloAsso",
+                         "url":  "https://www.helloasso.com/associations/tehani-et-les-enfants-phelan-mcdermid",
+                         "type":  "otro",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de donaciones de la asociación Téhani et les enfants Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid 974 - Facebook",
+                         "url":  "https://www.facebook.com/p/Phelan-McDermid-974-100073188162508/",
+                         "type":  "facebook",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación de familias con PMS de la isla de La Reunión (Les Avirons).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid 974 en HelloAsso",
+                         "url":  "https://www.helloasso.com/associations/phelan-mcdermid-974",
+                         "type":  "otro",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de donaciones de la asociación reunionesa Phelan McDermid 974.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Connaissez-vous le syndrome Phelan-McDermid ? - Réunion la 1ère",
+                         "url":  "https://la1ere.franceinfo.fr/reunion/etang-sale/connaissez-vous-le-syndrome-phelan-mcdermid-maladie-genetique-qui-touche-une-dizaine-de-reunionnais-1528220.html",
+                         "type":  "otro",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia de franceinfo sobre el síndrome, que afecta a una decena de personas en La Reunión.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "La Tribu de Rafael - Facebook",
+                         "url":  "https://m.facebook.com/2239868506331794/photos/demain-le-22-octobre-cest-la-journ%C3%A9e-internationale-du-syndrome-phelan-mcdermidf/2401833510135292/",
+                         "type":  "facebook",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página familiar de Facebook que difunde el día internacional del PMS (22 de octubre) con la campaña en verde.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Syndrome Phelan-McDermid : tous en vert pour Charlie",
+                         "url":  "https://www.sainte-luce-loire.com/actualites/syndrome-phelan-mcdermid-tous-en-vert-pour-charlie/",
+                         "type":  "otro",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia municipal de Sainte-Luce-sur-Loire sobre la campaña de sensibilización por Charlie, niño con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Institut Pasteur - Phelan-McDermid Syndrome: from mechanisms to treatments",
+                         "url":  "https://research.pasteur.fr/en/project/phelan-mcdermid-syndrome-from-mechanisms-to-treatments/",
+                         "type":  "investigacion",
+                         "language":  "fr",
+                         "country":  "FR",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Proyecto del equipo de Thomas Bourgeron (Institut Pasteur), que descubrió las primeras mutaciones de SHANK3 en autismo y PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Elke est atteint du syndrome de Phelan-McDermid - Radio RG",
+                         "url":  "https://www.radiorg.be/fr/elke-est-atteint-du-syndrome-de-phelan-mcdermid/",
+                         "type":  "otro",
+                         "language":  "fr",
+                         "country":  "BE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Testimonio en francés de la radio de enfermedades raras belga sobre Elke y su familia.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Elke heeft het syndroom van Phelan-McDermid - Radio RG",
+                         "url":  "https://www.radiorg.be/nl/getuigenis-11-elke/",
+                         "type":  "otro",
+                         "language":  "nl",
+                         "country":  "BE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Testimonio en neerlandés sobre Elke; sus padres crearon una vzw (22q13.be) y un fondo de investigación.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid syndroom (22q13 DS) Fonds - KU Leuven",
+                         "url":  "https://steun.kuleuven.be/fondsen/geneeskunde/phelan-mcdermid-syndroom-22q13ds-fonds",
+                         "type":  "investigacion",
+                         "language":  "nl",
+                         "country":  "BE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Fondo de la KU Leuven, creado por una madre, que financia la investigación del PMS en UZ Leuven.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid - Exceptional Kids (KU Leuven)",
+                         "url":  "https://gbiomed.kuleuven.be/nl/cme/steun/exceptionalkids/22q13",
+                         "type":  "investigacion",
+                         "language":  "nl",
+                         "country":  "BE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Página del programa Exceptional Kids del Centro de Genética Humana de Leuven dedicada al PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "AISPHEM - Associazione Italiana per la Sindrome di Phelan-McDermid",
+                         "url":  "https://www.aisphem.it/",
+                         "type":  "web",
+                         "language":  "it",
+                         "country":  "IT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Web de la asociación italiana de familias con PMS, con sede en Rovereto, que apoya a familias e impulsa la investigación.",
+                         "created":  "2012-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "AISPHEM - Facebook",
+                         "url":  "https://www.facebook.com/aisphemodv/?locale=it_IT",
+                         "type":  "facebook",
+                         "language":  "it",
+                         "country":  "IT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación italiana del síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Sindrome di Phelan-McDermid (delezione 22q13) - Fondazione Telethon",
+                         "url":  "https://www.fondazionetelethon.it/cosa-facciamo/ricerca/malattie-studiate/sindrome-di-phelan-mcdermid-delezione-22q13/",
+                         "type":  "investigacion",
+                         "language":  "it",
+                         "country":  "IT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Ficha de Fondazione Telethon sobre el síndrome y los estudios que financia, en colaboración con AISPHEM.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Sindrome di Phelan-McDermid o Monosomia 22q13 - I Malati Invisibili",
+                         "url":  "https://www.imalatiinvisibili.it/2018/02/14/sindrome-di-phelan-mcdermid-o-monosomia-22q13/",
+                         "type":  "blog",
+                         "language":  "it",
+                         "country":  "IT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo divulgativo del blog italiano I Malati Invisibili sobre el síndrome.",
+                         "created":  "2018-02",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Tremila per Daniele, la Legnano night run sostiene la ricerca",
+                         "url":  "https://primamilanoovest.it/cronaca/tremila-per-daniele-la-legnano-night-run-sostiene-la-ricerca/",
+                         "type":  "otro",
+                         "language":  "it",
+                         "country":  "IT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticia local sobre una carrera solidaria en Legnano para apoyar la investigación del PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid-Gesellschaft e.V.",
+                         "url":  "https://www.22q13.info/",
+                         "type":  "web",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Plataforma y asociación de autoayuda de habla alemana (Alemania, Austria y Suiza) con encuentros familiares y simposios.",
+                         "created":  "2014-05",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid-Gesellschaft e.V. - betterplace",
+                         "url":  "https://www.betterplace.org/en/organisations/34330-phelan-mcdermid-gesellschaft-e-v",
+                         "type":  "otro",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de donaciones de la asociación alemana Phelan-McDermid-Gesellschaft.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid-Gesellschaft e.V. - ACHSE",
+                         "url":  "https://www.achse-online.de/ueber-uns/mitglieder/phelan-mcdermid-gesellschaft",
+                         "type":  "otro",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha de la asociación alemana en la alianza de enfermedades raras ACHSE.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Interdisziplinäre Phelan-McDermid-Sprechstunde - Universitätsklinikum Ulm",
+                         "url":  "https://www.uniklinik-ulm.de/neurologie/sprechstunden-ambulanzen/interdisziplinaere-phelan-mcdermid-sprechstunde.html",
+                         "type":  "investigacion",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Consulta especializada interdisciplinaria en PMS del hospital universitario de Ulm, referencia para el área germanohablante.",
+                         "created":  "2016-08",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Neuartige Therapie für Phelan-McDermid-Syndrom - Universität Ulm",
+                         "url":  "https://www.uni-ulm.de/med/fakultaet/med-detailseiten/news-detail/article/neuartige-therapie-fuer-phelan-mcdermid-syndrom/",
+                         "type":  "investigacion",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Noticia sobre la financiación de hasta 1,7 millones de euros al equipo de Tobias Böckers para una terapia con oligonucleótidos antisentido para SHANK3.",
+                         "created":  "2026",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "\"Wir sind eine glückliche Familie mit einem glücklichen Kind\" - Schwäbische Post",
+                         "url":  "https://www.schwaebische-post.de/ostalb/ostalbkreis/wir-sind-eine-glueckliche-familie-mit-einem-gluecklichen-kind-90308324.html",
+                         "type":  "otro",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Reportaje de prensa sobre una familia alemana y su hija Ella, con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "\"Ella ist ein besonderes Kind\" - PTAheute",
+                         "url":  "https://www.ptaheute.de/aktuelles/2020/02/29/ella-ist-ein-besonderes-kind-leben-mit-dem-phelan-mcdermid-syndrom",
+                         "type":  "otro",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Artículo sobre la vida con el síndrome de Phelan-McDermid a partir de la historia de Ella.",
+                         "created":  "2020-02",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid-Syndrom – ein seltener Gendefekt - Barrierefrei Magazin",
+                         "url":  "https://barrierefrei-magazin.de/artikel/gendefekt-phelan-mcdermid-syndrom/",
+                         "type":  "otro",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Artículo de una revista online sobre discapacidad que explica el síndrome y recoge la historia de un joven afectado.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "22.10. Phelan-McDermid-Syndrom-Tag - SEB Leipzig",
+                         "url":  "https://seb-leipzig.de/aktuelles/blog/69833-22.10.-phelan-mcdermid-syndrom-tag",
+                         "type":  "blog",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Entrada de blog de una entidad de Leipzig sobre el día del síndrome de Phelan-McDermid (22 de octubre).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid syndroom - University of Groningen",
+                         "url":  "https://www.rug.nl/research/genetics/research/phelan-mcdermid-syndrome/",
+                         "type":  "investigacion",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Página del grupo de investigación en PMS de la Universidad de Groningen/UMCG, autor de la guía internacional de atención.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Nieuws \u0026 Nieuwsbrieven - Phelan-McDermid syndroom (RUG)",
+                         "url":  "https://www.rug.nl/research/genetics/research/phelan-mcdermid-syndrome/nieuws",
+                         "type":  "otro",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Noticias y boletines del equipo de Groningen sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid syndroom - UMC Groningen",
+                         "url":  "https://www.umcg.nl/-/phelan-mc-dermid-syndroom",
+                         "type":  "web",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Información del centro de expertise del UMCG (miembro de ERN ITHACA) con consulta para niños y adultos con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid-syndroom - ZeldSamen",
+                         "url":  "https://zeldsamen.nl/netwerken-zeldzame-genetische-syndromen/phelan-mcdermid-syndroom/",
+                         "type":  "web",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Red neerlandesa de síndromes genéticos raros con información y contacto entre familias con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "22q13 Deleties - Uniek (Zeldzame Chromosoomafwijkingen)",
+                         "url":  "https://www.uniek-erfelijk.nl/22q13-deleties.html",
+                         "type":  "web",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "22q13",
+                                        "PMS"
+                                    ],
+                         "description":  "Página de la organización neerlandesa de anomalías cromosómicas raras con la guía para familias sobre deleciones 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Richtlijn 22q13 deletiesyndroom (PMS) - Richtlijnendatabase",
+                         "url":  "https://richtlijnendatabase.nl/richtlijn/22q13_deletiesyndroom_pms/algemeen_-_22q13ds_pms.html",
+                         "type":  "otro",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "22q13",
+                                        "PMS"
+                                    ],
+                         "description":  "Guía clínica neerlandesa oficial para el síndrome de deleción 22q13.",
+                         "created":  "2018-10",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Implementatie van insuline neusspray bij kinderen met Phelan-McDermid - ZonMw",
+                         "url":  "https://projecten.zonmw.nl/nl/project/implementatie-van-insuline-neusspray-de-behandeling-van-kinderen-met-phelan-mcdermid",
+                         "type":  "investigacion",
+                         "language":  "nl",
+                         "country":  "NL",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Proyecto financiado por ZonMw para implantar el espray nasal de insulina en el tratamiento de niños con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermids Syndrom Sverige (PMSS)",
+                         "url":  "https://pmss.se/",
+                         "type":  "web",
+                         "language":  "sv",
+                         "country":  "SE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Asociación sueca sin ánimo de lucro de personas con PMS y sus familiares, para difundir conocimiento y crear comunidad.",
+                         "created":  "2020",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMS Sverige - Instagram",
+                         "url":  "https://www.instagram.com/pms_sverige/",
+                         "type":  "instagram",
+                         "language":  "sv",
+                         "country":  "SE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram de la asociación sueca Phelan-McDermids Syndrom Sverige.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermids syndrom - Ågrenska",
+                         "url":  "https://www.agrenska.se/sallsynta-halsotillstand/phelan-mcdermids-syndrom/",
+                         "type":  "web",
+                         "language":  "sv",
+                         "country":  "SE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página del centro nacional sueco Ågrenska con información y documentación sobre el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Kunskapsportalen - Phelan McDermid - Nationellt Center för Rett syndrom",
+                         "url":  "https://www.nationelltcenter.se/kunskapsportalen/phelan-mcdermid-syndrom/",
+                         "type":  "web",
+                         "language":  "sv",
+                         "country":  "SE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Portal de conocimiento del centro nacional sueco para Rett y diagnósticos afines, con sección sobre PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermids syndrom - Socialstyrelsen",
+                         "url":  "https://www.socialstyrelsen.se/kunskapsstod-och-regler/omraden/sallsynta-halsotillstand/om-kunskapsdatabasen/sok-bland-sallsynta-halsotillstand/phelan-mcdermids-syndrom/",
+                         "type":  "web",
+                         "language":  "sv",
+                         "country":  "SE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha de la base de datos de enfermedades raras de la autoridad sanitaria sueca.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Delesjon 22 Q 13 / Phelan McDermid Syndrom (Hokksund)",
+                         "url":  "https://www.1881.no/interesseorganisasjoner/interesseorganisasjoner-buskerud/interesseorganisasjoner-hokksund/delesjon-22-q-13--phelan-mcdermid-syndrom_103116625S0/",
+                         "type":  "otro",
+                         "language":  "no",
+                         "country":  "NO",
+                         "topics":  [
+                                        "22q13",
+                                        "PMS"
+                                    ],
+                         "description":  "Registro de la organización noruega de familias Delesjon 22q13 / Phelan McDermid Syndrom, con sede en Hokksund.",
+                         "created":  "2009-07",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermids syndrom - NHI.no",
+                         "url":  "https://nhi.no/sykdommer/sjeldne-tilstander/p/phelan-mcdermids-syndrom",
+                         "type":  "web",
+                         "language":  "no",
+                         "country":  "NO",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Ficha médica noruega sobre el síndrome, con datos de Frambu (unas 30 personas diagnosticadas en Noruega en 2021).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Frambu - Hvordan fungerer personer med Phelan-McDermids syndrom i Norge",
+                         "url":  "https://www.facebook.com/Frambu.no/photos/hvordan-fungerer-personer-med-phelan-mcdermids-syndrom-i-norge-og-hvilke-vansker/982401540604341/",
+                         "type":  "facebook",
+                         "language":  "no",
+                         "country":  "NO",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Publicación del centro nacional noruego de diagnósticos raros Frambu sobre un estudio de personas con PMS en Noruega.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid syndrom - Sjældne Diagnoser",
+                         "url":  "https://sjaeldnediagnoser.dk/netvaerk/phelan-mcdermid-syndrom/",
+                         "type":  "web",
+                         "language":  "da",
+                         "country":  "DK",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de la red danesa de diagnósticos raros para PMS, que remite a UniqueDanmark y a un grupo de Facebook danés.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Guldportræt - Lias - Sjældne Diagnoser",
+                         "url":  "https://sjaeldnediagnoser.dk/guldportraetter/guldportaert-lias/",
+                         "type":  "otro",
+                         "language":  "da",
+                         "country":  "DK",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Retrato testimonial de Lias, niño danés con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermids syndrom - Lægehåndbogen (sundhed.dk)",
+                         "url":  "https://www.sundhed.dk/sundhedsfaglig/laegehaandbogen/sjaeldne-sygdomme/sjaeldne-sygdomme/phelan-mcdermids-syndrom/",
+                         "type":  "web",
+                         "language":  "da",
+                         "country":  "DK",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha médica danesa oficial sobre el síndrome (unas 20 personas afectadas en Dinamarca).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermidin oireyhtymä - Tukiliitto",
+                         "url":  "https://www.tukiliitto.fi/diagnoosit/phelan-mcdermidin-oireyhtyma/",
+                         "type":  "web",
+                         "language":  "fi",
+                         "country":  "FI",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha finlandesa sobre el síndrome que remite al grupo de apoyo entre iguales \"22q13 – Phelan-McDermid Finland\".",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermidin oireyhtymä - Harvinaiset",
+                         "url":  "https://harvinaiset.fi/diagnoosi/phelan-mcdermidin-oireyhtyma/",
+                         "type":  "web",
+                         "language":  "fi",
+                         "country":  "FI",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha del portal finlandés de enfermedades raras sobre el síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Syndrome Foundation (PMSF)",
+                         "url":  "https://pmsf.org/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Web oficial de la mayor organización de pacientes de PMS del mundo: apoyo a familias, investigación y sensibilización.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - Facebook",
+                         "url":  "https://www.facebook.com/PMSF22q13/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Página oficial de Facebook de la Phelan-McDermid Syndrome Foundation para sensibilización y noticias.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - Instagram (@pmsf_official)",
+                         "url":  "https://www.instagram.com/pmsf_official/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta oficial de Instagram de la PMSF con noticias, historias de familias y campañas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - X (@Phelan_McDermid)",
+                         "url":  "https://x.com/Phelan_McDermid",
+                         "type":  "x",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta oficial de la PMSF en X (antes Twitter).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - YouTube",
+                         "url":  "https://www.youtube.com/c/phelanmcdermidsyndromefoundation",
+                         "type":  "youtube",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Canal de YouTube de la PMSF con grabaciones de conferencias, seminarios web y series educativas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - LinkedIn",
+                         "url":  "https://www.linkedin.com/company/pmsf-official",
+                         "type":  "linkedin",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Perfil corporativo de la PMSF en LinkedIn.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "The Phelan-McDermid Podcast: Sharing Research, Progress, and Hope",
+                         "url":  "https://podcasts.apple.com/us/podcast/the-phelan-mcdermid-podcast-sharing-research-progress/id1666661206",
+                         "type":  "podcast",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Pódcast mensual de la PMSF, presentado por su directora científica, con entrevistas a investigadores y clínicos.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "The Phelan-McDermid Podcast (Spotify)",
+                         "url":  "https://open.spotify.com/show/3ENl0OCIOuUld0EgZgdhrm",
+                         "type":  "podcast",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "El pódcast científico de la PMSF en Spotify.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMS DataHub (PMSF)",
+                         "url":  "https://pmsf.org/pms-datahub/",
+                         "type":  "registro",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Registro internacional de pacientes de la PMSF (sucesor del PMS International Registry de 2011), disponible también en español.",
+                         "created":  "2011",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - Caregiver Support Groups",
+                         "url":  "https://pmsf.org/caregiver-support-groups/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Grupos de apoyo online de la PMSF para cuidadores: generales, recién diagnosticados, padres y crisis neuropsiquiátricas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF - Phelan-McDermid Syndrome Clinics",
+                         "url":  "https://pmsf.org/pms-clinics/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Listado de clínicas especializadas en síndrome de Phelan-McDermid recopilado por la PMSF.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Syndrome Awareness Day (PMSAD)",
+                         "url":  "https://pmsf.org/pmsad/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página del Día de Concienciación del PMS, cada 22 de octubre, con la campaña global \u0027shine green\u0027.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF UK",
+                         "url":  "https://www.pmsf.org.uk/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "GB",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Organización benéfica británica que apoya a familias con PMS en Reino Unido e Irlanda con información, jornadas familiares y ayudas.",
+                         "created":  "2014",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF UK - Facebook",
+                         "url":  "https://www.facebook.com/PMSFUK/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "GB",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la PMSF UK.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF UK - X (@pmsfuk)",
+                         "url":  "https://x.com/pmsfuk",
+                         "type":  "x",
+                         "language":  "en",
+                         "country":  "GB",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta en X de la Phelan-McDermid Syndrome Foundation UK.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF UK - JustGiving",
+                         "url":  "https://www.justgiving.com/pmsfuk",
+                         "type":  "otro",
+                         "language":  "en",
+                         "country":  "GB",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de donaciones y recaudación de fondos de la PMSF UK.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Syndrome UK \u0026 Ireland (grupo de Facebook)",
+                         "url":  "https://www.facebook.com/groups/pmsukireland/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "GB",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Grupo de Facebook que conecta a familias afectadas por PMS en Reino Unido e Irlanda.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF Australia",
+                         "url":  "https://pmsfaustralia.org.au/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "AU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Fundación australiana sin ánimo de lucro que apoya a familias de niños y jóvenes con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF Australia - Facebook",
+                         "url":  "https://www.facebook.com/PMSFAustralia/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "AU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la Phelan-McDermid Syndrome Foundation Australia.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF Australia - Instagram (@pmsfaustralia)",
+                         "url":  "https://www.instagram.com/pmsfaustralia/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "AU",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram de la PMSF Australia.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid Syndrome Foundation Canada",
+                         "url":  "https://pmsfcanada.org/en/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "CA",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Fundación benéfica canadiense (bilingüe inglés/francés) de apoyo a familias con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "PMSF Canada - CanadaHelps",
+                         "url":  "https://www.canadahelps.org/en/charities/phelan-mcdermid-syndrome-foundation-canada-fondation-du-syndrome-phelan-mcdermid/",
+                         "type":  "otro",
+                         "language":  "en",
+                         "country":  "CA",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ficha de donaciones de la PMSF Canada en la plataforma CanadaHelps.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK",
+                         "url":  "https://cureshank.org/",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Fundación creada por padres para acelerar el desarrollo de tratamientos para el PMS y los trastornos relacionados con SHANK.",
+                         "created":  "2019",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK - Real Family Stories",
+                         "url":  "https://www.cureshank.org/real-family-stories",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Serie de vídeos de CureSHANK con historias reales de familias que viven con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK - Instagram (@cureshank)",
+                         "url":  "https://www.instagram.com/cureshank/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Cuenta de Instagram de CureSHANK sobre ciencia y terapias para el PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK - Facebook",
+                         "url":  "https://www.facebook.com/CureSHANK/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Página de Facebook de CureSHANK.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Communications - CureSHANK (grupo de Facebook)",
+                         "url":  "https://www.facebook.com/groups/cureshank/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Grupo de Facebook de CureSHANK para noticias de investigación y ensayos clínicos en PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK - YouTube",
+                         "url":  "https://www.youtube.com/@cureshank/videos",
+                         "type":  "youtube",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Canal de YouTube de CureSHANK con vídeos de familias y de investigación.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK - TikTok (@cureshank)",
+                         "url":  "https://www.tiktok.com/@cureshank",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Cuenta de TikTok de CureSHANK.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid Syndrome Family Support Group (Facebook)",
+                         "url":  "https://www.facebook.com/groups/22Q13PMS/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Grupo de Facebook de apoyo entre familias afectadas por PMS / deleción 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "22q13 deletion syndrome phelan mcdermid syndrome (grupo de Facebook)",
+                         "url":  "https://www.facebook.com/groups/141515989246381/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Grupo de Facebook dedicado a la deleción 22q13 / síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid Syndrome facts (TikTok)",
+                         "url":  "https://www.tiktok.com/@phelan.mcdermid.facts",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de TikTok divulgativa con datos y concienciación sobre el PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "arm22q13 (blog)",
+                         "url":  "https://arm22q13.wordpress.com/",
+                         "type":  "blog",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Blog de un familiar que explica la ciencia de la deleción 22q13, SHANK3 y el resto de genes implicados.",
+                         "created":  "2015",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Chromosome 22 Central",
+                         "url":  "https://c22c.org/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "CA",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Red sin ánimo de lucro (EE. UU. y Canadá) para familias con trastornos del cromosoma 22, incluido el PMS.",
+                         "created":  "1996",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Chromosome 22 Central - X (@C22Central)",
+                         "url":  "https://x.com/C22Central",
+                         "type":  "x",
+                         "language":  "en",
+                         "country":  "CA",
+                         "topics":  [
+                                        "22q13"
+                                    ],
+                         "description":  "Cuenta en X de Chromosome 22 Central.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Unique - 22q13 Deletions Phelan-McDermid Syndrome guide",
+                         "url":  "https://rarechromo.org/guide/22q13-deletions-phelan-mcdermid-syndrome/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "GB",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Guía para familias sobre las deleciones 22q13 de Unique, la organización británica de trastornos cromosómicos raros.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Developmental Synaptopathies Consortium - PMS",
+                         "url":  "https://dsc.rarediseasesnetwork.org/diseases-studied/phelan-mcdermid-syndrome",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Consorcio financiado por los NIH que realiza el estudio de historia natural del PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Seaver Autism Center (Mount Sinai) - programa de enfermedades raras",
+                         "url":  "https://icahn.mssm.edu/research/friedman/research/autism",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Centro de Mount Sinai (Nueva York) con un programa de investigación en PMS: historia natural, biomarcadores y ensayos clínicos.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Boston Children\u0027s Hospital - Phelan-McDermid Syndrome",
+                         "url":  "https://www.childrenshospital.org/conditions/phelan-mcdermid-syndrome",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Clínica multidisciplinar de PMS del Boston Children\u0027s Hospital, que además participa en el estudio de historia natural.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Jaguar Gene Therapy - JAG201 study (ClinicalTrials.gov NCT06662188)",
+                         "url":  "https://clinicaltrials.gov/study/NCT06662188",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Ensayo clínico de terapia génica JAG201 en niños y adultos con haploinsuficiencia de SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Jaguar Gene Therapy",
+                         "url":  "https://jaguargenetherapy.com/press-release/jaguar-gene-therapy-announces-fda-clearance-of-ind-to-study-jag201-in-a-genetic-form-of-autism-spectrum-disorder-and-phelan-mcdermid-syndrome/",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Nota de prensa de Jaguar Gene Therapy sobre la autorización de la FDA para estudiar JAG201 en el PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Neuren NNZ-2591 Koala Phase 3 study (ClinicalTrials.gov NCT07281079)",
+                         "url":  "https://clinicaltrials.gov/study/NCT07281079",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Ensayo de fase 3 (Koala) de NNZ-2591 en niños de 3 a 12 años con PMS, el primero de fase 3 en este síndrome.",
+                         "created":  "2026",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Simons Searchlight",
+                         "url":  "https://www.simonssearchlight.org/",
+                         "type":  "registro",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "SHANK3"
+                                    ],
+                         "description":  "Registro online internacional de historia natural financiado por SFARI que incluye variantes genéticas de SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "GeneDx - SHANK3 Inform Partnership Program",
+                         "url":  "https://www.genedx.com/providers/genetic-testing-programs/shank3",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "SHANK3"
+                                    ],
+                         "description":  "Programa de pruebas genéticas de GeneDx orientado a la detección de alteraciones en SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "GeneReviews - Phelan-McDermid Syndrome-SHANK3 Related",
+                         "url":  "https://www.ncbi.nlm.nih.gov/books/NBK1198/",
+                         "type":  "otro",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Revisión clínica de referencia (NCBI) sobre el diagnóstico y el manejo del PMS relacionado con SHANK3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "NORD - Phelan-McDermid Syndrome",
+                         "url":  "https://rarediseases.org/rare-diseases/phelan-mcdermid-syndrome/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Ficha informativa sobre el PMS de la National Organization for Rare Disorders (EE. UU.).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Child Neurology Foundation - Phelan-McDermid Syndrome",
+                         "url":  "https://www.childneurologyfoundation.org/disorder/phelan-mcdermid-syndrome/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página informativa sobre el PMS para familias de la Child Neurology Foundation.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "MedlinePlus Genetics - 22q13.3 deletion syndrome",
+                         "url":  "https://medlineplus.gov/genetics/condition/22q133-deletion-syndrome/",
+                         "type":  "web",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Ficha divulgativa de la Biblioteca Nacional de Medicina de EE. UU. sobre el síndrome de deleción 22q13.3.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "The Transmitter - Phelan-McDermid syndrome",
+                         "url":  "https://www.thetransmitter.org/phelan-mcdermid-syndrome/",
+                         "type":  "otro",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Sección de noticias de neurociencia de The Transmitter sobre investigación en PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Centre of Research Excellence in Speech and Language - Phelan-McDermid",
+                         "url":  "https://www.geneticsofspeech.org.au/genes/other-conditions-we-have-studied-that-include-speech-and-language-disorder-presentations/phelan-mcdermind-syndrome/",
+                         "type":  "investigacion",
+                         "language":  "en",
+                         "country":  "AU",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Centro de investigación australiano que ha estudiado el fenotipo del habla y del lenguaje en el PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan McDermid 974 (@phelanmcdermid974)",
+                         "url":  "https://www.instagram.com/phelanmcdermid974/",
+                         "type":  "instagram",
+                         "language":  "fr",
+                         "country":  "RE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta de Instagram sobre el síndrome, aparentemente de La Reunión (974).",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Perú (@familias_phelan_mcdermid_peru)",
+                         "url":  "https://www.instagram.com/familias_phelan_mcdermid_peru/",
+                         "type":  "instagram",
+                         "language":  "es",
+                         "country":  "PE",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Instagram de las familias con síndrome de Phelan-McDermid en Perú.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid-Gesellschaft e.V. (@22q13.info)",
+                         "url":  "https://www.instagram.com/22q13.info/",
+                         "type":  "instagram",
+                         "language":  "de",
+                         "country":  "DE",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Instagram de la asociación alemana de familias Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan Lucky (@phelanlucky22q13)",
+                         "url":  "https://www.instagram.com/phelanlucky22q13/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Cuenta de concienciación sobre PMS en honor a Jack Randolph y todas las personas diagnosticadas.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Jen | medical mama + chaos (@jennifer.l.cummings)",
+                         "url":  "https://www.instagram.com/jennifer.l.cummings/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "22q13"
+                                    ],
+                         "description":  "Madre que documenta en Instagram el camino de su hijo Jaxson con 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "The life of Callie girl (@the_life_of_calliegirl)",
+                         "url":  "https://www.instagram.com/the_life_of_calliegirl/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Cuenta familiar gestionada por la madre de Callie, con PMS, autismo y deleción 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan Mcdermid Warrior (@mylittlebearsjourney)",
+                         "url":  "https://www.instagram.com/mylittlebearsjourney/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Cuenta familiar sobre el día a día de su hijo mayor con síndrome de Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Instagram: Phelan McDermid Syndrome (página temática)",
+                         "url":  "https://www.instagram.com/popular/phelan-mcdermid-syndrome/",
+                         "type":  "instagram",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página temática de Instagram que agrupa unos 20.000 reels sobre PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "TikTok: #phelanmcdermid (página Discover)",
+                         "url":  "https://www.tiktok.com/discover/phelanmcdermid",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página Discover de TikTok que reúne vídeos sobre Phelan-McDermid.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "TikTok: 22q13 Deletion Syndrome (página Discover)",
+                         "url":  "https://www.tiktok.com/discover/22q13-deletion-syndrome-phelan-mcdermoid",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Página Discover de TikTok con vídeos sobre la deleción 22q13.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "@phelan.mcdermid.facts – \u0027A tiny piece of chromosome 22\u0027",
+                         "url":  "https://www.tiktok.com/@phelan.mcdermid.facts/video/7493697593676025118",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3",
+                                        "22q13"
+                                    ],
+                         "description":  "Cuenta divulgativa de TikTok con datos sobre PMS; vídeo sobre la deleción 22q13.",
+                         "created":  "2025-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "@phelan.mcdermid.facts – \u0027Comprendiendo el Síndrome de Phelan McDermid\u0027",
+                         "url":  "https://www.tiktok.com/@phelan.mcdermid.facts/video/7495902710840020270",
+                         "type":  "tiktok",
+                         "language":  "es",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Vídeo divulgativo en español de la cuenta @phelan.mcdermid.facts.",
+                         "created":  "2025-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "@phelanlucky22q13 – Apoyo a los niños con PMS",
+                         "url":  "https://www.tiktok.com/@phelanlucky22q13/video/7458090611384552746",
+                         "type":  "tiktok",
+                         "language":  "es",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Vídeo de TikTok de Phelan Lucky sobre el apoyo a niños con PMS.",
+                         "created":  "2025-01",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "@mollymeyer__ – Understanding Phelan McDermid Syndrome",
+                         "url":  "https://www.tiktok.com/@mollymeyer__/video/7546992749468306719",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Vídeo de TikTok que explica el síndrome desde una perspectiva personal.",
+                         "created":  "2025-09",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "@mdburwell – vídeo familiar sobre PMS",
+                         "url":  "https://www.tiktok.com/@mdburwell/video/7490331904252726570",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Vídeo familiar de TikTok sobre una niña con síndrome de Phelan-McDermid.",
+                         "created":  "2025-04",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "@kelsbrysroa – Facts about Talon (#TalonsWarriors)",
+                         "url":  "https://www.tiktok.com/@kelsbrysroa/video/6993381124688858374",
+                         "type":  "tiktok",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Madre que comparte en TikTok datos sobre el diagnóstico de su hijo Talon.",
+                         "created":  "2021-08",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Síndrome de Phelan-McDermid Argentina (YouTube)",
+                         "url":  "https://www.youtube.com/channel/UCxocpPQipqRq89J2h9YcD6Q",
+                         "type":  "youtube",
+                         "language":  "es",
+                         "country":  "AR",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Canal de YouTube de la comunidad Phelan-McDermid de Argentina.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-Mcdermid Portugal (YouTube)",
+                         "url":  "https://www.youtube.com/channel/UC1dVnR3hk7gYTpRyTmsqQow",
+                         "type":  "youtube",
+                         "language":  "pt",
+                         "country":  "PT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Canal de YouTube de la asociación portuguesa con vídeos sobre el síndrome.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "This Is Our Daily Reality — Phelan-McDermid syndrome (Short)",
+                         "url":  "https://www.youtube.com/shorts/Gociw6H4jqc",
+                         "type":  "youtube",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Vídeo corto de YouTube que muestra el día a día de una familia con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Phelan-McDermid Syndrome Advocacy",
+                         "url":  "https://www.facebook.com/groups/424105147981828/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Grupo de Facebook dedicado a la defensa de derechos en torno al PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Associação Phelan-McDermid Portugal (Facebook)",
+                         "url":  "https://www.facebook.com/people/Associa%C3%A7%C3%A3o-Phelan-McDermid-Portugal/pfbid08h918PHZkfiG3w2oqU9jdkXzo4sExx1rPufWCwMnwd9L7GGGUDqiuwcA2yniRS12l/",
+                         "type":  "facebook",
+                         "language":  "pt",
+                         "country":  "PT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook de la asociación portuguesa.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "Faces of Phelan-McDermid Syndrome",
+                         "url":  "https://www.facebook.com/facesofphelanmcdermidsyndrome/",
+                         "type":  "facebook",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS"
+                                    ],
+                         "description":  "Página de Facebook que comparte historias de personas que viven con PMS.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK (@CureSHANK)",
+                         "url":  "https://x.com/cureshank?lang=en",
+                         "type":  "x",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Cuenta de X de la fundación CureSHANK.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "CureSHANK (LinkedIn)",
+                         "url":  "https://www.linkedin.com/company/cureshank",
+                         "type":  "linkedin",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Página de la fundación CureSHANK en LinkedIn.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "The Phelan-McDermid Podcast (lista de YouTube)",
+                         "url":  "https://www.youtube.com/playlist?list=PLrvWABjgRvmVoJdWEDOj_RY2L1B-67WpC",
+                         "type":  "podcast",
+                         "language":  "en",
+                         "country":  "US",
+                         "topics":  [
+                                        "PMS",
+                                        "SHANK3"
+                                    ],
+                         "description":  "Lista de YouTube con los episodios en vídeo del pódcast de la PMSF.",
+                         "created":  null,
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     },
+                     {
+                         "name":  "A little bit of Kaos",
+                         "url":  "http://alittlebitofkaos.blogspot.com/2014/06/phelan-mcdermid-syndrome.html",
+                         "type":  "blog",
+                         "language":  "en",
+                         "country":  "INT",
+                         "topics":  [
+                                        "PMS",
+                                        "22q13"
+                                    ],
+                         "description":  "Blog familiar sobre Nicholas, diagnosticado con una deleción 22q13.3.",
+                         "created":  "2014-06",
+                         "first_seen":  "2026-09-23",
+                         "inicial":  true
+                     }
+                 ]
+}

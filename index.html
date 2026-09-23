@@ -5,45 +5,55 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Boletín Phelan-McDermid</title>
 <meta name="description" content="Boletín semanal con las webs y redes sociales sobre el síndrome de Phelan-McDermid, SHANK3 y 22q13 en todos los idiomas. Se actualiza cada mañana y sale edición nueva cada miércoles.">
+<link rel="icon" href="https://22q13.org.es/wp-content/uploads/2023/11/cropped-isotipo_ASPM-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+/* Aspecto basado en 22q13.org.es (ASPM): Montserrat, verdes corporativos y lima */
 :root{
-  --bg:#f6f7f9; --card:#ffffff; --ink:#1c2330; --muted:#5d6878; --line:#e2e6ec;
-  --brand:#1f5fa8; --brand-soft:#e7f0fb;
-  --new:#c2410c; --new-bg:#fff4e8; --new-line:#f6b27a;
-  --today:#9d174d; --today-bg:#fdebf3;
-  --chip:#eef1f5;
+  --bg:#f7f9f7; --card:#ffffff; --ink:#333333; --muted:#666666; --line:#e3e8e3;
+  --title:#004b23; --brand:#1a692d; --brand-soft:#eef7e6; --lime:#81d742;
+  --new:#8f560e; --new-accent:#dd9933; --new-bg:#fdf5e8; --new-line:#efc98d;
+  --today:#b0275f; --today-bg:#fcebf2;
+  --chip:#f2f2f2;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#11151b; --card:#1a2029; --ink:#e7ebf1; --muted:#9aa5b5; --line:#2b3340;
-    --brand:#7fb2ee; --brand-soft:#1d2b3d;
-    --new:#ffa364; --new-bg:#2d1f14; --new-line:#8a4a1c;
-    --today:#f58cbc; --today-bg:#33192a;
-    --chip:#232b36;
+    --bg:#0f1712; --card:#17221a; --ink:#e6ece7; --muted:#a3b0a6; --line:#2a3a2e;
+    --title:#9fdc76; --brand:#81d742; --brand-soft:#1b2d1f; --lime:#81d742;
+    --new:#f0b45a; --new-accent:#dd9933; --new-bg:#2b2213; --new-line:#7a5620;
+    --today:#f38ab5; --today-bg:#331a27;
+    --chip:#223027;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#11151b; --card:#1a2029; --ink:#e7ebf1; --muted:#9aa5b5; --line:#2b3340;
-  --brand:#7fb2ee; --brand-soft:#1d2b3d;
-  --new:#ffa364; --new-bg:#2d1f14; --new-line:#8a4a1c;
-  --today:#f58cbc; --today-bg:#33192a;
-  --chip:#232b36;
+  --bg:#0f1712; --card:#17221a; --ink:#e6ece7; --muted:#a3b0a6; --line:#2a3a2e;
+  --title:#9fdc76; --brand:#81d742; --brand-soft:#1b2d1f; --lime:#81d742;
+  --new:#f0b45a; --new-accent:#dd9933; --new-bg:#2b2213; --new-line:#7a5620;
+  --today:#f38ab5; --today-bg:#331a27;
+  --chip:#223027;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 16px/1.6 Montserrat,Helvetica,Arial,sans-serif}
 a{color:var(--brand)}
+h1,h2,h3{color:var(--title);font-weight:700}
 .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+.topbar{background:var(--lime);height:8px}
 header{background:var(--card);border-bottom:1px solid var(--line)}
-header .wrap{padding-top:28px;padding-bottom:22px}
-.kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
-h1{font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.15;margin:.3rem 0 .5rem}
+header .wrap{padding-top:20px;padding-bottom:26px}
+.logo{display:block;height:58px;width:auto;margin:0 0 18px}
+:root[data-theme="dark"] .logo{background:#fff;border-radius:8px;padding:6px 10px;height:70px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .logo{background:#fff;border-radius:8px;padding:6px 10px;height:70px}}
+.kicker{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--brand);margin:0}
+h1{font-size:clamp(1.6rem,4.5vw,2.6rem);line-height:1.15;margin:.3rem 0 .5rem}
 .meta{color:var(--muted);font-size:.95rem;margin:0}
 .meta strong{color:var(--ink)}
 .legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:14px;font-size:.88rem;color:var(--muted)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .sw{width:14px;height:14px;border-radius:3px;display:inline-block;border:1px solid var(--line)}
 section{margin:30px 0}
-h2{font-size:1.3rem;margin:0 0 4px}
+h2{font-size:1.35rem;margin:0 0 6px;padding-left:12px;border-left:5px solid var(--lime)}
 .sub{color:var(--muted);margin:0 0 14px;font-size:.95rem}
 .intro{background:var(--brand-soft);border-radius:10px;padding:14px 16px;margin:0 0 16px}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:18px 0 0}
@@ -53,7 +63,7 @@ h2{font-size:1.3rem;margin:0 0 4px}
 .stat.new b{color:var(--new)}
 .list{display:grid;gap:10px}
 .item{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;padding:12px 14px}
-.item.is-new{background:var(--new-bg);border-color:var(--new-line);border-left-color:var(--new)}
+.item.is-new{background:var(--new-bg);border-color:var(--new-line);border-left-color:var(--new-accent)}
 .item.is-today{background:var(--today-bg);border-left-color:var(--today)}
 .item h3{font-size:1.02rem;margin:0 0 2px;overflow-wrap:anywhere}
 .item h3 a{text-decoration:none}
@@ -66,7 +76,7 @@ h2{font-size:1.3rem;margin:0 0 4px}
 .badge{border-radius:999px;padding:1px 9px;font-size:.74rem;font-weight:700;letter-spacing:.03em;color:#fff;background:var(--new)}
 .is-today .badge{background:var(--today)}
 .controls{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
-.controls input,.controls select{font:inherit;font-size:.93rem;padding:7px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
+.controls input,.controls select{font:inherit;font-size:.9rem;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
 .controls input{flex:1 1 220px}
 .group-title{font-size:1rem;margin:22px 0 8px;color:var(--muted);text-transform:capitalize}
 .empty{color:var(--muted);font-style:italic}
@@ -78,15 +88,17 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 </style>
 </head>
 <body>
+<div class="topbar"></div>
 <header>
   <div class="wrap">
     <button class="themebtn" id="themebtn" type="button">Tema</button>
+    <a href="https://22q13.org.es" target="_blank" rel="noopener"><img class="logo" src="https://22q13.org.es/wp-content/uploads/2023/10/logo-22q13.png" alt="Asociación Síndrome Phelan-McDermid"></a>
     <p class="kicker">Boletín semanal · sale cada miércoles</p>
     <h1>Phelan-McDermid · SHANK3 · 22q13 en la red</h1>
     <p class="meta" id="meta">Cargando…</p>
     <div class="legend">
       <span><i class="sw" style="background:var(--today)"></i> Encontrado hoy</span>
-      <span><i class="sw" style="background:var(--new)"></i> Nuevo en los últimos 7 días</span>
+      <span><i class="sw" style="background:var(--new-accent)"></i> Nuevo en los últimos 7 días</span>
       <span><i class="sw" style="background:var(--card)"></i> Ya conocido</span>
     </div>
   </div>

@@ -1,0 +1,494 @@
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<title>PMS Evidence Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@600;700&display=swap">
+<style>
+/* Layout: fixed header + tab bar; two-column (filters / results) that stacks at phone width.
+   Palette derived from the PMS GO logo: forest green, lime, sky; neutrals biased green. */
+:root{
+  --bg:#F7F8F5; --surface:#FFFFFF; --surface-2:#EFF2EC; --line:#DCE2D6;
+  --ink:#171717; --ink-2:#4A5247; --ink-3:#737D70;
+  --accent:#2C654F; --accent-soft:#E2EDE7; --lime:#D0DE8F; --sky:#8BCDDE;
+  --good:#2C654F; --warn:#9A6B00; --warn-soft:#FBF0D8; --bad:#A33A24; --bad-soft:#F8E6E1;
+  --shadow:0 1px 2px rgba(23,23,23,.06),0 4px 14px rgba(23,23,23,.05);
+  --f-display:"IBM Plex Serif",Georgia,serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12150F; --surface:#1A1E17; --surface-2:#232820; --line:#333A2F;
+  --ink:#ECEFE8; --ink-2:#B4BCAE; --ink-3:#8A9385;
+  --accent:#7FC2A2; --accent-soft:#1E2A23; --lime:#D0DE8F; --sky:#8BCDDE;
+  --good:#7FC2A2; --warn:#D9A93E; --warn-soft:#2A2415; --bad:#E08670; --bad-soft:#2E1C17;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#12150F; --surface:#1A1E17; --surface-2:#232820; --line:#333A2F;
+  --ink:#ECEFE8; --ink-2:#B4BCAE; --ink-3:#8A9385;
+  --accent:#7FC2A2; --accent-soft:#1E2A23; --lime:#D0DE8F; --sky:#8BCDDE;
+  --good:#7FC2A2; --warn:#D9A93E; --warn-soft:#2A2415; --bad:#E08670; --bad-soft:#2E1C17;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+a{color:var(--accent)}
+button{font:inherit;cursor:pointer}
+.mono{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+
+/* banner */
+.proto{background:var(--lime);color:#171717;font-size:12.5px;font-weight:600;letter-spacing:.02em}
+.proto .wrap{padding-block:7px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+
+/* header */
+header{background:var(--surface);border-bottom:1px solid var(--line)}
+header .wrap{padding-block:16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.mark{width:34px;height:34px;flex:none}
+.brandtxt{display:flex;flex-direction:column;gap:1px;min-width:0}
+.brandtxt b{font-family:var(--f-display);font-size:19px;font-weight:700;letter-spacing:-.01em}
+.brandtxt span{font-size:11.5px;color:var(--ink-3);letter-spacing:.07em;text-transform:uppercase}
+.hstats{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}
+.hstat b{display:block;font-family:var(--f-data);font-size:17px;font-weight:600;line-height:1.1}
+.hstat span{font-size:11px;color:var(--ink-3)}
+
+/* tabs */
+nav{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:env(safe-area-inset-top,0px);z-index:20}
+nav .wrap{display:flex;gap:2px;overflow-x:auto}
+nav button{background:none;border:0;border-bottom:2px solid transparent;color:var(--ink-2);padding:11px 13px;font-size:14px;font-weight:500;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent);font-weight:600}
+nav button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+main .wrap{padding-block:22px 60px}
+.lede{color:var(--ink-2);max-width:68ch;margin:0 0 18px}
+
+/* search layout */
+.cols{display:grid;grid-template-columns:260px 1fr;gap:22px;align-items:start}
+@media(max-width:860px){.cols{grid-template-columns:1fr}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow)}
+.panel>h3{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-family:var(--f-body);font-weight:600;padding:13px 14px 0}
+.fgroup{padding:10px 14px 14px;border-bottom:1px solid var(--line)}
+.fgroup:last-child{border-bottom:0}
+.fgroup>label{display:block;font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);font-weight:600;margin-bottom:6px}
+select,input[type=search]{width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:var(--surface-2);color:var(--ink);font:inherit;font-size:13.5px;min-width:0}
+select:focus,input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{border:1px solid var(--line);background:var(--surface-2);color:var(--ink-2);border-radius:999px;padding:4px 10px;font-size:12.5px;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-theme="dark"] .chip[aria-pressed="true"],
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip[aria-pressed="true"]{color:#12150F}}
+.reset{width:100%;margin-top:10px;padding:8px;border:1px solid var(--line);background:none;color:var(--ink-2);border-radius:7px;font-size:13px}
+
+.resbar{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.resbar b{font-family:var(--f-data);font-size:22px;font-weight:600}
+.resbar span{color:var(--ink-3);font-size:13.5px}
+.cards{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px;box-shadow:var(--shadow);min-width:0}
+.card.neg{border-left:3px solid var(--warn)}
+.card.contra{border-left:3px solid var(--bad)}
+.card.rep{border-left:3px solid var(--good)}
+.ctext{margin:0 0 9px;font-size:14.5px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.badge{font-family:var(--f-data);font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:5px;background:var(--surface-2);color:var(--ink-2);border:1px solid var(--line)}
+.badge.p{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.badge.r1,.badge.r2{background:var(--accent-soft);color:var(--good);border-color:transparent}
+.badge.r4{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.badge.r5{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.src{font-size:12.5px;color:var(--ink-3);margin-top:8px}
+.src a{text-decoration:none;border-bottom:1px solid currentColor}
+.lim{margin-top:9px;padding:9px 11px;background:var(--surface-2);border-radius:7px;font-size:12.5px;color:var(--ink-2)}
+.lim b{color:var(--ink);font-weight:600}
+details summary{cursor:pointer;font-size:12.5px;color:var(--accent);font-weight:500;margin-top:8px}
+.empty{padding:30px;text-align:center;color:var(--ink-3)}
+
+/* charts + grids */
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}
+.pad{padding:16px}
+.pad h3{font-size:15px;margin-bottom:3px}
+.pad p.sub{margin:0 0 12px;font-size:12.5px;color:var(--ink-3)}
+.bars{display:flex;flex-direction:column;gap:7px}
+.bar{display:grid;grid-template-columns:132px 1fr 42px;gap:9px;align-items:center;font-size:13px}
+.bar i{font-style:normal;color:var(--ink-2);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.track{height:16px;background:var(--surface-2);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--accent);border-radius:4px}
+.fill.w{background:var(--warn)}.fill.b{background:var(--bad)}.fill.s{background:var(--sky)}
+.bar u{text-decoration:none;font-family:var(--f-data);font-size:12.5px;text-align:right;color:var(--ink-2)}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:460px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+td.n{font-family:var(--f-data);text-align:center;font-variant-numeric:tabular-nums}
+.cell0{color:var(--bad);font-weight:700}
+.cellhi{background:var(--accent-soft);font-weight:600}
+.note{font-size:12.5px;color:var(--ink-3);margin-top:10px;max-width:70ch}
+
+/* conflict */
+.conf{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--bad);border-radius:10px;padding:16px;box-shadow:var(--shadow)}
+.conf h3{font-size:16px;margin-bottom:7px}
+.conf .tagrow{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.conf p{margin:0 0 10px;font-size:14px}
+.conf .sect{font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);font-weight:600;margin:12px 0 5px}
+.conf ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--ink-2)}
+.conf .fix{background:var(--accent-soft);border-radius:8px;padding:11px 13px;font-size:13.5px;margin-top:10px}
+.conf .fix b{color:var(--accent)}
+.recs{display:flex;flex-direction:column;gap:7px;margin:4px 0 0}
+.rec{background:var(--surface-2);border-radius:7px;padding:9px 11px;font-size:13px}
+.rec .rid{font-family:var(--f-data);font-size:11.5px;color:var(--accent);font-weight:600}
+
+footer{border-top:1px solid var(--line);background:var(--surface)}
+footer .wrap{padding-block:20px 30px;font-size:12.5px;color:var(--ink-3)}
+@media (prefers-reduced-motion:no-preference){.fill{transition:width .3s ease}}
+</style>
+
+<div class="proto"><div class="wrap">
+  <span>PROTOTIPO</span>
+  <span style="font-weight:400">Interfaz de demostración. Los datos son reales: 620 afirmaciones de 313 publicaciones verificadas.</span>
+</div></div>
+
+<header><div class="wrap">
+  <svg class="mark" viewBox="0 0 100 100" aria-hidden="true">
+    <path d="M50 8 L68 26 L50 44 L32 26 Z" fill="#8BCDDE"/>
+    <path d="M92 50 L74 68 L56 50 L74 32 Z" fill="#2C654F"/>
+    <path d="M50 92 L32 74 L50 56 L68 74 Z" fill="#D0DE8F"/>
+    <path d="M8 50 L26 32 L44 50 L26 68 Z" fill="currentColor"/>
+  </svg>
+  <div class="brandtxt">
+    <b>PMS Evidence Atlas</b>
+    <span>Phelan-McDermid Syndrome Global Organization</span>
+  </div>
+  <div class="hstats">
+    <div class="hstat"><b id="s-claims">—</b><span>afirmaciones</span></div>
+    <div class="hstat"><b id="s-refs">—</b><span>referencias</span></div>
+    <div class="hstat"><b id="s-univ">—</b><span>publicaciones</span></div>
+  </div>
+</div></header>
+
+<nav><div class="wrap" role="tablist">
+  <button role="tab" aria-selected="true" data-tab="buscar">Buscar evidencia</button>
+  <button role="tab" aria-selected="false" data-tab="panorama">Panorama del campo</button>
+  <button role="tab" aria-selected="false" data-tab="huecos">Huecos</button>
+  <button role="tab" aria-selected="false" data-tab="contra">Contradicciones</button>
+</div></nav>
+
+<main><div class="wrap">
+
+<section id="t-buscar">
+  <p class="lede">Filtra la evidencia por bloque de investigación, fase, especie, eslabón de la cadena causal, nivel de evidencia y población estudiada. Cada resultado enlaza a su fuente verificada.</p>
+  <div class="cols">
+    <aside class="panel">
+      <h3>Filtros</h3>
+      <div class="fgroup">
+        <label for="q">Texto, gen o medida</label>
+        <input type="search" id="q" placeholder="SHANK3, Homer1, EEG, sueño…">
+      </div>
+      <div class="fgroup">
+        <label for="f-stage">Fase de investigación</label>
+        <select id="f-stage">
+          <option value="">Todas</option>
+          <option value="basic">Básica (in vitro, bioquímica)</option>
+          <option value="ex_vivo_tissue">Tejido ex vivo</option>
+          <option value="animal_in_vivo">Animal in vivo</option>
+          <option value="human_observational">Humanos, observacional</option>
+          <option value="human_trial">Humanos, ensayo</option>
+        </select>
+      </div>
+      <div class="fgroup">
+        <label for="f-chain">Eslabón de la cadena</label>
+        <select id="f-chain">
+          <option value="">Todos</option>
+          <option value="molecular">Molecular</option>
+          <option value="synaptic">Sináptico</option>
+          <option value="circuit_eeg">Circuito / EEG</option>
+          <option value="sleep">Sueño</option>
+          <option value="cognition_behavior">Cognición y conducta</option>
+        </select>
+      </div>
+      <div class="fgroup">
+        <label for="f-species">Especie</label>
+        <select id="f-species"><option value="">Todas</option></select>
+      </div>
+      <div class="fgroup">
+        <label for="f-pop">Población</label>
+        <select id="f-pop">
+          <option value="">Todas</option>
+          <option value="pms">PMS / SHANK3</option>
+          <option value="not_pms">Fuera de PMS (especificidad)</option>
+          <option value="mixed">Mixta</option>
+        </select>
+      </div>
+      <div class="fgroup">
+        <label>Robustez de la evidencia</label>
+        <div class="chips" id="f-r">
+          <button class="chip" aria-pressed="false" data-r="R1">R1 replicado</button>
+          <button class="chip" aria-pressed="false" data-r="R2">R2 potencia</button>
+          <button class="chip" aria-pressed="false" data-r="R3">R3 sin replicar</button>
+          <button class="chip" aria-pressed="false" data-r="R4">R4 preliminar</button>
+          <button class="chip" aria-pressed="false" data-r="R5">R5 contradicho</button>
+        </div>
+      </div>
+      <div class="fgroup">
+        <label>Tipo de resultado</label>
+        <div class="chips" id="f-neg">
+          <button class="chip" aria-pressed="false" data-neg="non_replication">No replicación</button>
+          <button class="chip" aria-pressed="false" data-neg="genuine_negative">Negativo genuino</button>
+          <button class="chip" aria-pressed="false" data-neg="incidental_null">Nulo incidental</button>
+        </div>
+        <button class="reset" id="reset">Limpiar filtros</button>
+      </div>
+    </aside>
+    <div>
+      <div class="resbar"><b id="count">—</b><span id="countsub">afirmaciones</span></div>
+      <div class="cards" id="results"></div>
+    </div>
+  </div>
+</section>
+
+<section id="t-panorama" hidden>
+  <p class="lede">Qué forma tiene la literatura del campo, medida sobre las 1.515 publicaciones que recupera la búsqueda sistemática y las 620 afirmaciones extraídas hasta ahora.</p>
+  <div class="grid2">
+    <div class="panel pad" style="grid-column:1/-1">
+      <h3>Publicaciones sobre PMS y SHANK3 por año</h3>
+      <p class="sub">La literatura se ha multiplicado por 3,8 en una década: 272 publicaciones entre 2006 y 2015, 1.040 entre 2016 y 2025.</p>
+      <div id="years"></div>
+    </div>
+    <div class="panel pad">
+      <h3>Robustez de la evidencia</h3>
+      <p class="sub">Una sola afirmación replicada por otro laboratorio; diez contradichas.</p>
+      <div class="bars" id="bars-r"></div>
+    </div>
+    <div class="panel pad">
+      <h3>Cercanía a la biología humana del PMS</h3>
+      <p class="sub">PH y PC quedan fuera de la escalera: son categorías distintas, no peldaños inferiores.</p>
+      <div class="bars" id="bars-p"></div>
+    </div>
+    <div class="panel pad">
+      <h3>Fase de investigación</h3>
+      <p class="sub">Dónde se ha generado la evidencia.</p>
+      <div class="bars" id="bars-stage"></div>
+    </div>
+    <div class="panel pad">
+      <h3>Eslabón de la cadena causal</h3>
+      <p class="sub">El nivel sináptico, donde SHANK3 actúa, es el peor cubierto.</p>
+      <div class="bars" id="bars-chain"></div>
+    </div>
+    <div class="panel pad" style="grid-column:1/-1">
+      <h3>Cobertura por bloque de investigación</h3>
+      <p class="sub">Publicaciones recuperadas por la búsqueda y estado de procesamiento.</p>
+      <div class="tablewrap"><table id="blocks"></table></div>
+    </div>
+  </div>
+</section>
+
+<section id="t-huecos" hidden>
+  <p class="lede">Dónde no hay evidencia. Las celdas vacías son candidatas a investigación; las celdas con pocos registros indican terreno poco pisado. Un hueco significa «no hay registro en este corpus», no «no se ha investigado nunca».</p>
+  <div class="grid2">
+    <div class="panel pad" style="grid-column:1/-1">
+      <h3>Eslabón de la cadena × medible en una persona</h3>
+      <p class="sub">La fila sináptica es el cuello de botella del campo: es donde SHANK3 actúa y no existe forma de medirlo en una persona viva.</p>
+      <div class="tablewrap"><table id="gap1"></table></div>
+      <p class="note">Leído de izquierda a derecha, cada fila dice qué se podría medir en un ensayo clínico. «No establecido» significa que la medida existe pero nadie ha demostrado que pueda hacerse en humanos.</p>
+    </div>
+    <div class="panel pad" style="grid-column:1/-1">
+      <h3>Eslabón × robustez</h3>
+      <p class="sub">Dónde la evidencia existe pero nadie la ha reproducido.</p>
+      <div class="tablewrap"><table id="gap2"></table></div>
+      <p class="note">Toda la columna R1 vacía salvo una celda significa que, para casi cualquier eslabón, el campo se apoya en hallazgos que ningún segundo grupo ha confirmado.</p>
+    </div>
+    <div class="panel pad" style="grid-column:1/-1">
+      <h3>Tres huecos estructurales ya identificados</h3>
+      <div class="recs" style="margin-top:10px">
+        <div class="rec"><b>No hay marcador sináptico humano.</b> 31 afirmaciones en el eslabón sináptico, prácticamente todas en animales. Cualquier cadena causal propuesta tiene ahí un salto.</div>
+        <div class="rec"><b>No existe modelo computacional de dosis-función.</b> De las 26 publicaciones computacionales del campo, ninguna toma la dosis de SHANK3 como entrada y predice función sináptica como salida.</div>
+        <div class="rec"><b>Los resultados negativos no se publican con potencia.</b> De 144 registros negativos, ninguno trae cálculo de potencia ni intervalo de confianza: indican dónde se ha pisado, no que el camino esté cerrado.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="t-contra" hidden>
+  <p class="lede">Dónde la literatura se contradice a sí misma. El catálogo no dice quién tiene razón: cada entrada termina en el experimento que resolvería el desacuerdo.</p>
+  <div class="cards" id="conflicts"></div>
+</section>
+
+</div></main>
+
+<footer><div class="wrap">
+  Prototipo de interfaz · Datos del corpus a 2 de noviembre de 2026 · Material generado por IA bajo supervisión de la ASPM, no revisado por pares · Licencia propuesta CC BY 4.0
+</div></footer>
+
+<script>
+const ES={
+  species:{human:"Humano",mouse:"Ratón",rat:"Rata",nhp:"Primate no humano",dog:"Perro",zebrafish:"Pez cebra",drosophila:"Drosophila",ipsc_derived:"Células iPSC",organoid:"Organoide",in_silico:"In silico",other:"Otro"},
+  stage:{basic:"Básica",ex_vivo_tissue:"Tejido ex vivo",animal_in_vivo:"Animal in vivo",human_observational:"Humanos, observacional",human_trial:"Humanos, ensayo"},
+  chain:{molecular:"Molecular",synaptic:"Sináptico",circuit_eeg:"Circuito / EEG",sleep:"Sueño",cognition_behavior:"Cognición y conducta"},
+  human:{non_invasive:"No invasivo",minimally_invasive:"Mín. invasivo",invasive:"Invasivo",not_established:"No establecido",not_applicable:"No aplica"},
+  pop:{pms:"PMS",not_pms:"Fuera de PMS",mixed:"Mixta",not_reported:"No consta"},
+  neg:{non_replication:"No replicación",genuine_negative:"Negativo genuino",incidental_null:"Nulo incidental",not_negative:""},
+  P:{P1:"P1 personas con PMS",P2:"P2 células de paciente",P3:"P3 animal con variante PMS",P4:"P4 SHANK3 manipulado",P5:"P5 inferido",PH:"PH humanos sin PMS",PC:"PC computacional"},
+  R:{R1:"R1 replicado por otro lab.",R2:"R2 potencia o preregistro",R3:"R3 sin replicar",R4:"R4 preliminar",R5:"R5 contradicho"},
+  nature:{opposite_result:"Resultados opuestos",opposite_direction:"Dirección opuesta",opposite_direction_across_species:"Dirección opuesta entre especies",opposite_interpretation:"Misma comparación, conclusión opuesta",non_replication:"No reproduce un hallazgo previo",inconsistent_across_cohorts:"Inconsistente entre cohortes"}
+};
+const CHAIN_ORDER=["molecular","synaptic","circuit_eeg","sleep","cognition_behavior"];
+const HUMAN_ORDER=["non_invasive","minimally_invasive","invasive","not_established"];
+const R_ORDER=["R1","R2","R3","R4","R5"];
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let DATA=null;
+
+document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.setAttribute('aria-selected',String(x===b)));
+  ['buscar','panorama','huecos','contra'].forEach(t=>{document.getElementById('t-'+t).hidden=(t!==b.dataset.tab)});
+  window.scrollTo({top:0,behavior:'instant'});
+}));
+
+fetch('data.json').then(r=>r.json()).then(d=>{DATA=d;boot()}).catch(()=>{
+  document.getElementById('results').innerHTML='<div class="empty">No se han podido cargar los datos.</div>';
+});
+
+function boot(){
+  document.getElementById('s-claims').textContent=DATA.meta.claims;
+  document.getElementById('s-refs').textContent=DATA.meta.refs;
+  document.getElementById('s-univ').textContent=DATA.meta.universe.toLocaleString('es');
+  const sp=[...new Set(DATA.claims.map(c=>c.species))].sort((a,b)=>(ES.species[a]||a).localeCompare(ES.species[b]||b));
+  const sel=document.getElementById('f-species');
+  sp.forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=ES.species[s]||s;sel.appendChild(o)});
+  ['q','f-stage','f-chain','f-species','f-pop'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+  document.querySelectorAll('#f-r .chip,#f-neg .chip').forEach(c=>c.addEventListener('click',()=>{
+    c.setAttribute('aria-pressed',c.getAttribute('aria-pressed')==='true'?'false':'true');render()}));
+  document.getElementById('reset').addEventListener('click',()=>{
+    ['q','f-stage','f-chain','f-species','f-pop'].forEach(id=>document.getElementById(id).value='');
+    document.querySelectorAll('.chip').forEach(c=>c.setAttribute('aria-pressed','false'));render()});
+  render();panorama();huecos();conflicts();
+}
+
+function active(sel,attr){return [...document.querySelectorAll(sel+' .chip[aria-pressed="true"]')].map(c=>c.dataset[attr])}
+
+function filtered(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const st=document.getElementById('f-stage').value, ch=document.getElementById('f-chain').value;
+  const sp=document.getElementById('f-species').value, po=document.getElementById('f-pop').value;
+  const rs=active('#f-r','r'), ng=active('#f-neg','neg');
+  return DATA.claims.filter(c=>{
+    if(st&&c.stage!==st)return false;
+    if(ch&&!(c.chain||[]).includes(ch))return false;
+    if(sp&&c.species!==sp)return false;
+    if(po&&c.pop!==po)return false;
+    if(rs.length&&!rs.includes(c.R))return false;
+    if(ng.length&&!ng.includes(c.neg))return false;
+    if(q){const h=(c.text+' '+(c.measure||'')+' '+(c.model||'')+' '+(c.ref.first||'')).toLowerCase();if(!h.includes(q))return false}
+    return true;
+  });
+}
+
+function render(){
+  const res=filtered();
+  document.getElementById('count').textContent=res.length;
+  document.getElementById('countsub').textContent=res.length===1?'afirmación':'afirmaciones'+(res.length<DATA.claims.length?' de '+DATA.claims.length:'');
+  const box=document.getElementById('results');
+  if(!res.length){box.innerHTML='<div class="panel empty">Ningún registro con estos filtros. Eso también es información: puede señalar un hueco.</div>';return}
+  box.innerHTML=res.slice(0,60).map(card).join('')+(res.length>60?'<div class="empty">Mostrando 60 de '+res.length+'. En la versión final, paginación y descarga completa.</div>':'');
+}
+
+function card(c){
+  const cls=c.R==='R5'?'contra':(c.R==='R1'||c.R==='R2')?'rep':(c.neg&&c.neg!=='not_negative')?'neg':'';
+  const r=c.ref,id=r.doi?('https://doi.org/'+r.doi):(r.pmid?('https://pubmed.ncbi.nlm.nih.gov/'+r.pmid+'/'):null);
+  const chains=(c.chain||[]).map(x=>'<span class="badge">'+esc(ES.chain[x]||x)+'</span>').join('');
+  return '<article class="card '+cls+'">'
+   +'<p class="ctext">'+esc(c.text)+'</p>'
+   +'<div class="meta">'
+     +'<span class="badge p mono">'+esc(c.lvl)+'</span>'
+     +'<span class="badge '+c.R.toLowerCase()+'">'+esc(ES.R[c.R]||c.R)+'</span>'
+     +'<span class="badge">'+esc(ES.species[c.species]||c.species)+'</span>'
+     +'<span class="badge">'+esc(ES.stage[c.stage]||c.stage)+'</span>'
+     +(c.pop==='not_pms'?'<span class="badge">Fuera de PMS</span>':'')
+     +(c.neg&&c.neg!=='not_negative'?'<span class="badge r4">'+esc(ES.neg[c.neg])+'</span>':'')
+     +chains
+   +'</div>'
+   +'<div class="src"><span class="mono">'+esc(c.id)+'</span> · '+esc(r.first||'?')+' '+esc(r.year||'')+(r.venue?', '+esc(r.venue):'')
+     +(id?' · <a href="'+esc(id)+'" target="_blank" rel="noopener">fuente verificada</a>':'')+'</div>'
+   +(c.limO?'<details><summary>Limitaciones observadas</summary><div class="lim">'+esc(c.limO)+'</div></details>':'')
+   +'</article>';
+}
+
+function bars(el,rows,cls){
+  const max=Math.max(...rows.map(r=>r[1]))||1;
+  el.innerHTML=rows.map(r=>'<div class="bar"><i title="'+esc(r[0])+'">'+esc(r[0])+'</i>'
+   +'<div class="track"><div class="fill '+(r[2]||cls||'')+'" style="width:'+Math.max(2,r[1]/max*100)+'%"></div></div>'
+   +'<u>'+r[1]+'</u></div>').join('');
+}
+
+function panorama(){
+  const ys=DATA.years.filter(y=>y.y>=2005);
+  const max=Math.max(...ys.map(y=>y.n)), W=760,H=190,P=26;
+  const bw=(W-P*2)/ys.length;
+  let svg='<svg viewBox="0 0 '+W+' '+(H+26)+'" style="width:100%;height:auto" role="img" aria-label="Publicaciones por año">';
+  ys.forEach((y,i)=>{
+    const h=(y.n/max)*(H-P), x=P+i*bw, yy=H-h;
+    svg+='<rect x="'+(x+1)+'" y="'+yy+'" width="'+(bw-2)+'" height="'+h+'" rx="2" fill="'+(y.y>=2016?'var(--accent)':'var(--sky)')+'"/>';
+    if(y.y%5===0||y.y===2026)svg+='<text x="'+(x+bw/2)+'" y="'+(H+15)+'" font-size="10" fill="var(--ink-3)" text-anchor="middle" font-family="IBM Plex Mono,monospace">'+y.y+'</text>';
+  });
+  svg+='<text x="'+P+'" y="12" font-size="10" fill="var(--ink-3)" font-family="IBM Plex Mono,monospace">máx. '+max+' en 2025</text></svg>';
+  document.getElementById('years').innerHTML=svg;
+
+  const cnt=(f)=>{const m={};DATA.claims.forEach(c=>{const k=f(c);if(k)m[k]=(m[k]||0)+1});return m};
+  const r=cnt(c=>c.R);
+  bars(document.getElementById('bars-r'),R_ORDER.map(k=>[ES.R[k],r[k]||0,k==='R5'?'b':(k==='R4'?'w':'')]));
+  const p=cnt(c=>c.P);
+  bars(document.getElementById('bars-p'),["P1","P2","P3","P4","P5","PH","PC"].map(k=>[ES.P[k],p[k]||0,(k==='PH'||k==='PC')?'s':'']));
+  const st=cnt(c=>c.stage);
+  bars(document.getElementById('bars-stage'),Object.keys(ES.stage).map(k=>[ES.stage[k],st[k]||0]));
+  const ch={};DATA.claims.forEach(c=>(c.chain||[]).forEach(k=>ch[k]=(ch[k]||0)+1));
+  bars(document.getElementById('bars-chain'),CHAIN_ORDER.map(k=>[ES.chain[k],ch[k]||0,k==='synaptic'?'w':'']));
+
+  const done=new Set(DATA.done_blocks);
+  const names={"C-behavior":"Conducta","C-molecular":"Molecular","C-synaptic":"Sináptico","T-intervention":"Intervenciones","C-circuit":"Circuito / EEG","C-sleep":"Sueño","C-biomarker":"Biomarcadores","N-negative":"Resultados negativos","S-in-silico":"Computacional"};
+  const rows=Object.entries(DATA.blocks).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('blocks').innerHTML='<thead><tr><th>Bloque</th><th>Publicaciones</th><th>Estado</th></tr></thead><tbody>'
+   +rows.map(([k,v])=>'<tr><td>'+esc(names[k]||k)+'</td><td class="n">'+v+'</td><td>'
+   +(done.has(k)?'<span class="badge r1">procesado</span>':'<span class="badge">pendiente</span>')+'</td></tr>').join('')+'</tbody>';
+}
+
+function matrix(el,rowKeys,rowLab,colKeys,colLab,keyFn){
+  const m={};DATA.claims.forEach(c=>{const ks=keyFn(c);ks.forEach(([r,cl])=>{m[r+'|'+cl]=(m[r+'|'+cl]||0)+1})});
+  let h='<thead><tr><th></th>'+colKeys.map(c=>'<th>'+esc(colLab[c]||c)+'</th>').join('')+'</tr></thead><tbody>';
+  rowKeys.forEach(r=>{
+    h+='<tr><td><b>'+esc(rowLab[r]||r)+'</b></td>';
+    colKeys.forEach(c=>{const v=m[r+'|'+c]||0;
+      h+='<td class="n '+(v===0?'cell0':(v>=40?'cellhi':''))+'">'+(v===0?'—':v)+'</td>'});
+    h+='</tr>';
+  });
+  el.innerHTML=h+'</tbody>';
+}
+
+function huecos(){
+  matrix(document.getElementById('gap1'),CHAIN_ORDER,ES.chain,HUMAN_ORDER,ES.human,
+    c=>(c.chain||[]).filter(x=>x).map(x=>[x,c.human]).filter(p=>HUMAN_ORDER.includes(p[1])));
+  matrix(document.getElementById('gap2'),CHAIN_ORDER,ES.chain,R_ORDER,ES.R,
+    c=>(c.chain||[]).map(x=>[x,c.R]));
+}
+
+function conflicts(){
+  const byId={};DATA.claims.forEach(c=>byId[c.id]=c);
+  document.getElementById('conflicts').innerHTML=DATA.conflicts.map(k=>{
+    const recs=(k.claims_involved||[]).map(id=>{const c=byId[id];if(!c)return'';
+      const r=c.ref,u=r.doi?('https://doi.org/'+r.doi):(r.pmid?('https://pubmed.ncbi.nlm.nih.gov/'+r.pmid+'/'):null);
+      return '<div class="rec"><span class="rid">'+esc(id)+'</span> · <span class="mono">'+esc(c.lvl)+'</span> · '
+       +esc(r.first||'?')+' '+esc(r.year||'')+(u?' · <a href="'+esc(u)+'" target="_blank" rel="noopener">fuente</a>':'')
+       +'<div style="margin-top:5px;color:var(--ink-2)">'+esc(c.text)+'</div></div>'}).join('');
+    return '<article class="conf">'
+     +'<h3>'+esc(k.conflict_id)+' · '+esc(k.title)+'</h3>'
+     +'<div class="tagrow"><span class="badge r5">'+esc(ES.nature[k.nature]||k.nature)+'</span>'
+       +(k.same_group?'<span class="badge r4">Mismo grupo</span>':'')
+       +(k.needs_full_text?'<span class="badge">Requiere texto completo</span>':'')+'</div>'
+     +'<p>'+esc(k.summary)+'</p>'
+     +'<div class="sect">Registros implicados</div><div class="recs">'+recs+'</div>'
+     +'<div class="sect">Qué podría explicarlo</div><ul>'+(k.candidate_explanations||[]).map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>'
+     +'<div class="fix"><b>Qué lo resolvería.</b> '+esc(k.resolving_experiment)+'</div>'
+     +'</article>';
+  }).join('');
+}
+</script>
